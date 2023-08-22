@@ -1,0 +1,3666 @@
+@media only screen and (min-width: 0px) and (max-width: 345px) {
+    /* universal */
+        * {
+          max-width: 100%;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+  
+        li {
+          list-style: none;
+        }
+        a {
+          text-decoration: none;
+        }
+        .JCH {
+          transition: 0.5s;
+          max-width: 100%;
+        }
+  
+    /* Head */
+  
+      /* Barra Menù orizzontale */
+        .JM{
+          transition: 0.5s;
+        }
+  
+      /* container Menù Sez 3*/
+  
+        .LMP {
+          width: auto;
+          padding: 5px;
+          justify-items: right;
+        }
+      /* menù verticale User */
+        .I-5 {
+          font-size: 20px;
+          margin: 10px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          transition: 0.5s;
+        }
+      /* NAME USER */
+        .I-5 .UM {
+          margin: 5px;
+          overflow: hidden;
+          color: #b2d1ff;
+          font-style: italic;
+          font-family: sans-serif;
+        }
+      /* Cont USER */
+        .I-5 .US {
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+          width: 50px;
+          height: 33px;
+          align-items: center;
+          border-radius: 50px 50pc;
+          background: #03e8f438;
+          position: relative;
+          box-shadow: 4px 2px 4px #00000150;
+        }
+      /* IMG USER */
+        .I-5 .IMGMA {
+          cursor: pointer;
+          width: 30px;
+          height: 30px;
+          align-items: center;
+          border-radius: 50px;
+          background-color: #ffffff00;
+          background: #03e8f400;
+          position: relative;
+          box-shadow: 4px 2px 4px #00000150;
+        }
+  
+      /* menù verticale User*/
+        .MTL {
+          display: none;
+        }
+        #MeTL {
+          z-index: 999;
+          background-color: rgba(2, 111, 111, 0.32);
+          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+          width: 100%;
+          height: auto;
+          right: 0px;
+          opacity: 70%;
+          /* overflow: hidden; */ /* Actived Solo quando User a fatto l'accesso */
+          transition: 0.5s;
+          position: absolute;
+        }
+        .OF-H {
+          overflow: hidden; /* Active when logged in */
+        }
+        #MeTL form {
+          -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
+        }
+        #MeTL li .L-5 {
+          padding: 20px 20px;
+          width: auto;
+          list-style: none;
+          color: #b2d1ff;
+          cursor: pointer;
+          text-decoration: none;
+          letter-spacing: 1px;
+          transition: 0.5s;
+        }
+        #MeTL li .L-5:hover {
+          letter-spacing: 4px;
+          transition: 0.5s;
+        }
+  
+        #MeTL  li:hover {
+          z-index: 999;
+          backdrop-filter: blur(1px);
+          background: #03e8f48c;
+          color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 5px #03e9f4,
+          0 0 25px #03e9f4,
+          0 0 50px #03e9f4,
+          0 0 10px #03e9f4;
+          transition: 0.5s;
+        }
+        #MeTL  li {
+          transition: 0.4s;
+          padding: 10px;
+          width: auto;
+          list-style: none;
+          cursor: pointer;
+        }
+      /* menù Verticale GUEST */
+        .CML {
+          display: flex;
+          flex-direction: column;
+          cursor: pointer;
+        }
+        .ML {
+          background-color: #b2d1ff;
+          height: 5px;
+          width: 35px;
+          margin: 2px;
+          border-radius: 50px 0px 50px 0px;
+        }
+  
+      /* Link menù verticale Guest*/
+        #MeTL form span a li:hover {
+          background: #03e8f48c;
+          color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 5px #03e9f4,
+          0 0 25px #03e9f4,
+          0 0 50px #03e9f4,
+          0 0 10px #03e9f4;
+          transition: 0.5s;
+        }
+        #MeTL form span a li:hover .BTM{
+          color: #fff;
+          transition: 0.5s;
+        }
+        #MeTL form span a li {
+          transition: 0.4s;
+          padding: 10px;
+          width: auto;
+          list-style: none;
+          color: #fff;
+          cursor: pointer;
+          letter-spacing: 2px;
+        }
+        #MeTL form span a:hover {
+          transition: 0.5s;
+          background: #03e9f4;
+          color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+            0 0 10px #03e9f4;
+        }
+  
+      /* BTN Accesso Menù Verticale */
+        .accedi {
+          backdrop-filter: blur(19px);
+          background: rgba(0, 0, 0, 0.5);
+          position: absolute;
+          width: 100%;
+          height: auto;
+          right: 0;
+          opacity: 70%;
+          padding: 10px 20px;
+          color: #00deea;
+          font-size: 16px;
+          text-decoration: none;
+          overflow: hidden;
+          transition: 0.5s;
+          letter-spacing: 4px;
+          justify-content: center;
+        }
+        .accedi span {
+          position: absolute;
+          display: block;
+        }
+  
+        .accedi span:nth-child(1) {
+          top: 0;
+          left: -100%;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+          animation: Acc-anim1 1s linear infinite;
+        }
+  
+        @keyframes Acc-anim1 {
+          0% {
+                left: -100%;
+              }
+          50%,
+          100% {
+                left: 100%;
+              }
+          }
+  
+        .accedi span:nth-child(2) {
+          top: -100%;
+          right: 0;
+          width: 2px;
+          height: 100%;
+          background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+          animation: Acc-anim2 1s linear infinite;
+          animation-delay: 0.25s;
+        }
+  
+        @keyframes Acc-anim2 {
+          50%,
+          100% {
+            top: 100%;
+          }
+        }
+  
+        .accedi span:nth-child(3) {
+          bottom: 0;
+          right: -100%;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+          animation: Acc-anim3 1s linear infinite;
+          animation-delay: 0.5s;
+        }
+  
+        @keyframes Acc-anim3 {
+          50%,
+          100% {
+            right: 100%;
+          }
+        }
+  
+        .accedi span:nth-child(4) {
+          bottom: -100%;
+          left: 0;
+          width: 2px;
+          height: 100%;
+          background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+          animation: Acc-anim4 1s linear infinite;
+          animation-delay: 0.75s;
+        }
+  
+        @keyframes Acc-anim4 {
+          0% {
+            bottom: -100%;
+          }
+  
+          50%,
+          100% {
+            bottom: 100%;
+          }
+        }
+  
+      /* Menù Orizzontale */
+  
+        .M {
+          background-color: rgb(0, 0, 0, 0.5);
+          display: flex;
+          align-items: center;
+          z-index: 0;
+          justify-content: space-between;
+        }
+      /* title Menù */
+        .JM h1 {
+          font-size: 24px;
+          color: white;
+          text-shadow: 2px 3px #ffffff31;
+          z-index: 1;
+          margin-left: 15px;
+        }
+      /* button menu */
+        .BTM {
+          font-weight: 700;
+          font-family: Courier, Courier, monospace;
+          background-color: rgba(0, 0, 0, 0);
+          border: none;
+          color: #03e8f497;
+          cursor: pointer;
+        }
+      /* listMenù orizzontale */
+        .A-10 {
+          display: none;
+        }
+        span .LM {
+          display: none;
+        }
+        span .LM3 {
+          display: none;
+        }
+      /*  Container IMG User */
+        .Us {
+          display: none;
+        }
+      /* Immaggine User */
+      /* Nomw User */
+        .LMP p {
+          display: none;
+        }
+      /* Menù User  */
+        .MT {
+          display: none;
+        }
+      /* Box Menù User */
+        #MeT {
+          display: none;
+        }
+      /* BOX User */
+        #MeTL .L-1 {
+          position: absolute;
+          display: block;
+        }
+        #MeTL .L-1:nth-child(1) {
+          top: 0;
+          left: -100%;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+          animation: box-anim1 1s linear infinite;
+        }
+  
+        @keyframes box-anim1 {
+          0% {
+            left: -100%;
+          }
+  
+          50%,
+          100% {
+            left: 100%;
+          }
+        }
+  
+        #MeTL .L-1:nth-child(2) {
+          top: -100%;
+          right: 0;
+          width: 2px;
+          height: 100%;
+          background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+          animation: box-anim2 1s linear infinite;
+          animation-delay: 0.25s;
+        }
+  
+        @keyframes box-anim2 {
+          50%,
+          100% {
+            top: 100%;
+          }
+        }
+  
+        #MeTL .L-1:nth-child(3) {
+          bottom: 0;
+          right: -100%;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+          animation: box-anim3 1s linear infinite;
+          animation-delay: 0.5s;
+        }
+  
+        @keyframes box-anim3 {
+          50%,
+          100% {
+            right: 100%;
+          }
+        }
+  
+        #MeTL .L-1:nth-child(4) {
+          bottom: -100%;
+          left: 0;
+          width: 2px;
+          height: 100%;
+          background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+          animation: box-anim4 1s linear infinite;
+          animation-delay: 0.75s;
+        }
+  
+        @keyframes box-anim4 {
+          0% {
+            bottom: -100%;
+          }
+  
+          50%,
+          100% {
+            bottom: 100%;
+          }
+      }
+      /* End Menu 2 */
+    /* End Head */
+      
+  
+    /* Body */
+  
+      /* Body Pagina */
+  
+        .allbody {
+          transition: 0.5s;
+          height: 100%;
+          width: 100%;
+          background: #1b2d40;
+        }
+  
+        .bodyI {
+          transition: 0.5s;
+          height: 100%;
+          width: 100%;
+          /* background-image: url("img/sfondo2.jpg"); */
+          background: #243b55;
+          background-size: auto;
+        }
+  
+        .BodyE {
+          transition: 0.5s;
+          height: 100%;
+          width: 100%;
+          /* background: url("img/sfondo.jpg") no-repeat; */
+          background: #243b55;
+          background-size: cover;
+        }
+  
+         /* BodyH */
+      /* Link Pagina */
+  .CLinkPag {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .linkP {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgba(153, 0, 255, 0.805);
+    text-shadow: 1px 1px 1px rgb(255, 248, 248);
+    transition: 0.5s;
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+  .linkP:hover {
+    padding: 5px;
+    background: rgba(153, 0, 255, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+    0 0 25px rgba(153, 0, 255, 0.805),
+    0 0 50px rgba(153, 0, 255, 0.805),
+    0 0 10px rgba(153, 0, 255, 0.805);
+  }
+
+  .linkP1 {
+    color: #5a565690;
+  }
+    
+     /* PG PhpExe */
+  /* title list phpexE */
+  .TT-10 {
+    margin: 50px 0px 50px 0px;
+  }
+  span h2.Title4 a {
+    font-size: xx-large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  .Title4 {
+    font-size: large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  /* Paragrafo list phpExe */
+  .PEXE a {
+    margin: 10px 10px 0px 10px;
+    color: rgba(255, 255, 255, 0.687) !important;
+    font-family: monospace;
+    font-size: xx-large;
+  }
+  /* LinKExe & ol PhpExe */
+  .CLTEXE {
+    margin-left: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.211);
+    padding: 5px;
+  }
+  .L-1 {
+    letter-spacing: 2px;
+  }
+  .L-1 a:hover {
+        padding: 5px;
+        background: rgba(153, 0, 255, 0.805);
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+        0 0 25px rgba(153, 0, 255, 0.805),
+        0 0 50px rgba(153, 0, 255, 0.805),
+        0 0 10px rgba(153, 0, 255, 0.805);
+        letter-spacing: 4px;
+  }
+  .LTEXE {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 10px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE1 {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 0px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  .LTEXE1 a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  /* NotaPhpexe */
+  p.notepxpexe {
+    font-size: xx-small;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.687);
+  }
+  /* esercizi con soluzioni */
+  /* title */
+  .LTEXE2 a {
+    font-family: math;
+    /*  padding: 5px; */
+    margin: 20px 0px 0px 10px;
+    font-size: large;
+    color: #fffffff0;
+    cursor: default;
+  }
+  .LTEXE2 {
+    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+  }
+  .mb-10 {
+    margin-bottom: 2.5rem;
+    margin-left: 5px;
+  }
+  /* ConteinerParagrafo */
+  .CTexExe {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* paragrafo */
+  .pExe1 {
+    font-size: 8px;
+    width: auto;
+    margin: 5px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.687);
+    cursor: pointer;
+  }
+  /* Risposta EXE */
+  .EXESV {
+    max-width: 100%;
+  }
+  .CEXESVTEXT {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .CEXESVTEXT .EXESVTEXT {
+    border-radius: 8px;
+    background-color: #1b1b1b;
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  /* TextEXE */
+  .EXEROW {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Conteiner esercizi */
+  .CExercises {
+    display: grid;
+  }
+  #SP {
+    display: none;
+  }
+  .SC {
+    border: 1px solid #434141;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 1px 1px #434141;
+    position: absolute;
+    background-color: #5a565690;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    z-index: 999;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+    bottom: 0px;
+  }
+  .Cfooter {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+  }
+.footer {
+  display: flex;
+}
+
+  .cont-EXE {
+    margin: 50px;
+  }
+    
+    /* End BodyB */
+    /* End Body */
+  }
+@media only screen and (min-width: 346px) and (max-width: 459px) {
+     /* universal */
+     * {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      li {
+        list-style: none;
+      }
+      .JCH {
+        transition: 0.5s;
+        max-width: 100%;
+      }
+      a {
+        text-decoration: none;
+      }
+
+  /* Head */
+
+    /* Barra Menù orizzontale */
+      .JM{
+        transition: 0.5s;
+      }
+
+    /* container Menù Sez 3*/
+
+      .LMP {
+        width: auto;
+        padding: 5px;
+        justify-items: right;
+      }
+    /* menù verticale User */
+      .I-5 {
+        font-size: 20px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+      }
+    /* NAME USER */
+      .I-5 .UM {
+        margin: 5px;
+        overflow: hidden;
+        color: #b2d1ff;
+        font-style: italic;
+        font-family: sans-serif;
+      }
+    /* Cont USER */
+      .I-5 .US {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        width: 50px;
+        height: 33px;
+        align-items: center;
+        border-radius: 50px 50pc;
+        background: #03e8f438;
+        position: relative;
+        box-shadow: 4px 2px 4px #00000150;
+      }
+    /* IMG USER */
+      .I-5 .IMGMA {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        border-radius: 50px;
+        background-color: #ffffff00;
+        background: #03e8f400;
+        position: relative;
+        box-shadow: 4px 2px 4px #00000150;
+      }
+
+    /* menù verticale User*/
+      .MTL {
+        display: none;
+      }
+      #MeTL {
+        backdrop-filter: blur(1px);
+        z-index: 999;
+        background-color: rgb(0, 0, 0);
+        width: 200px;
+        height: auto;
+        right: 0px;
+        opacity: 70%;
+        /* overflow: hidden; */ /* Actived Solo quando User a fatto l'accesso */
+        transition: 0.5s;
+        position: absolute;
+      }
+      .OF-H {
+        overflow: hidden; /* Active when logged in */
+      }
+      #MeTL li .L-5 {
+        padding: 20px 20px;
+        width: auto;
+        list-style: none;
+        color: #b2d1ff;
+        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: 0.5s;
+      }
+      #MeTL li .L-5:hover {
+        letter-spacing: 4px;
+        transition: 0.5s;
+      }
+
+      #MeTL  li:hover {
+        background: #03e8f48c;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 10px #03e9f4;
+        transition: 0.5s;
+      }
+      #MeTL  li {
+        transition: 0.4s;
+        padding: 10px;
+        width: auto;
+        list-style: none;
+        cursor: pointer;
+      }
+    /* menù Verticale GUEST */
+      .CML {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+      }
+      .ML {
+        background-color: #b2d1ff;
+        height: 5px;
+        width: 35px;
+        margin: 2px;
+        border-radius: 50px 0px 50px 0px;
+      }
+
+    /* Link menù verticale Guest*/
+      #MeTL form span a li:hover {
+        background: #03e8f48c;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 10px #03e9f4;
+        transition: 0.5s;
+      }
+      #MeTL form span a li:hover .BTM{
+        color: #fff;
+        transition: 0.5s;
+      }
+      #MeTL form span a li {
+        transition: 0.4s;
+        padding: 10px;
+        width: auto;
+        list-style: none;
+        color: #fff;
+        cursor: pointer;
+        letter-spacing: 2px;
+      }
+      #MeTL form span a:hover {
+        transition: 0.5s;
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+          0 0 10px #03e9f4;
+      }
+
+    /* BTN Accesso Menù Verticale */
+      .accedi {
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        width: 100%;
+        height: auto;
+        right: 0;
+        opacity: 70%;
+        padding: 10px 20px;
+        color: #00deea;
+        font-size: 16px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        justify-content: center;
+      }
+      .accedi span {
+        position: absolute;
+        display: block;
+      }
+      .accedi span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim1 1s linear infinite;
+      }
+      @keyframes Acc-anim1 {
+        0% {
+              left: -100%;
+            }
+        50%,
+        100% {
+              left: 100%;
+            }
+        }
+      .accedi span:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim2 1s linear infinite;
+        animation-delay: 0.25s;
+      }
+      @keyframes Acc-anim2 {
+        50%,
+        100% {
+          top: 100%;
+        }
+      }
+      .accedi span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim3 1s linear infinite;
+        animation-delay: 0.5s;
+      }
+      @keyframes Acc-anim3 {
+        50%,
+        100% {
+          right: 100%;
+        }
+      }
+      .accedi span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim4 1s linear infinite;
+        animation-delay: 0.75s;
+      }
+      @keyframes Acc-anim4 {
+        0% {
+          bottom: -100%;
+        }
+
+        50%,
+        100% {
+          bottom: 100%;
+        }
+      }
+
+    /* Menù Orizzontale */
+
+      .M {
+        background-color: rgb(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        z-index: 0;
+        justify-content: space-between;
+      }
+    /* title Menù */
+      .JM h1 {
+        color: white;
+        text-shadow: 2px 3px #ffffff31;
+        z-index: 1;
+        margin-left: 15px;
+      }
+    /* button menu */
+      .BTM {
+        font-weight: 700;
+        font-family: Courier, Courier, monospace;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: #03e8f497;
+        cursor: pointer;
+      }
+    /* listMenù orizzontale */
+      .A-10 {
+        display: none;
+      }
+      span .LM {
+        display: none;
+      }
+      span .LM3 {
+        display: none;
+      }
+    /*  Container IMG User */
+      .Us {
+        display: none;
+      }
+    /* Immaggine User */
+    /* Nomw User */
+      .LMP p {
+        display: none;
+      }
+    /* Menù User  */
+      .MT {
+        display: none;
+      }
+    /* Box Menù User */
+      #MeT {
+        display: none;
+      }
+    /* BOX User */
+      #MeTL .L-1 {
+        position: absolute;
+        display: block;
+      }
+      #MeTL .L-1:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+        animation: box-anim1 1s linear infinite;
+      }
+
+      @keyframes box-anim1 {
+        0% {
+          left: -100%;
+        }
+
+        50%,
+        100% {
+          left: 100%;
+        }
+      }
+
+      #MeTL .L-1:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+        animation: box-anim2 1s linear infinite;
+        animation-delay: 0.25s;
+      }
+
+      @keyframes box-anim2 {
+        50%,
+        100% {
+          top: 100%;
+        }
+      }
+
+      #MeTL .L-1:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+        animation: box-anim3 1s linear infinite;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes box-anim3 {
+        50%,
+        100% {
+          right: 100%;
+        }
+      }
+
+      #MeTL .L-1:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+        animation: box-anim4 1s linear infinite;
+        animation-delay: 0.75s;
+      }
+
+      @keyframes box-anim4 {
+        0% {
+          bottom: -100%;
+        }
+
+        50%,
+        100% {
+          bottom: 100%;
+        }
+    }
+    /* End Menu 2 */
+  /* End Head */
+    
+
+  /* Body */
+
+    /* Body Pagina */
+
+      .allbody {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        background: #1b2d40;
+      }
+
+      .bodyI {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        /* background-image: url("img/sfondo2.jpg"); */
+        background: #243b55;
+        background-size: auto;
+      }
+
+      .BodyE {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        /* background: url("img/sfondo.jpg") no-repeat; */
+        background: #243b55;
+        background-size: cover;
+      }
+  /* BodyH */
+    /* Link Pagina */
+  .CLinkPag {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .linkP {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgba(153, 0, 255, 0.805);
+    text-shadow: 1px 1px 1px rgb(255, 248, 248);
+    transition: 0.5s;
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+  .linkP:hover {
+    padding: 5px;
+    background: rgba(153, 0, 255, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+    0 0 25px rgba(153, 0, 255, 0.805),
+    0 0 50px rgba(153, 0, 255, 0.805),
+    0 0 10px rgba(153, 0, 255, 0.805);
+    letter-spacing: 2px;
+  }
+
+  .linkP1 {
+    color: #5a565690;
+  }
+    /* End Body */
+
+     /* PG PhpExe */
+  /* title list phpexE */
+  .TT-10 {
+    margin: 50px 0px 50px 0px;
+  }
+  span h2.Title4 a {
+    font-size: xx-large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  .Title4 {
+    font-size: xx-large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  /* Paragrafo list phpExe */
+  .PEXE a {
+    margin: 10px 10px 0px 10px;
+    color: rgba(255, 255, 255, 0.687) !important;
+    font-family: monospace;
+    font-size: xx-large;
+  }
+  /* LinKExe & ol PhpExe */
+  .CLTEXE {
+    margin-left: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.211);
+    padding: 5px;
+  }
+  .L-1 {
+    letter-spacing: 2px;
+  }
+  .L-1 a:hover {
+        padding: 5px;
+        background: rgba(153, 0, 255, 0.805);
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+        0 0 25px rgba(153, 0, 255, 0.805),
+        0 0 50px rgba(153, 0, 255, 0.805),
+        0 0 10px rgba(153, 0, 255, 0.805);
+        letter-spacing: 4px;
+  }
+  .LTEXE {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 10px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE1 {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 0px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  .LTEXE1 a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  /* NotaPhpexe */
+  p.notepxpexe {
+    font-size: xx-small;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.687);
+  }
+  /* esercizi con soluzioni */
+  /* title */
+  .LTEXE2 a {
+    font-family: math;
+    /*  padding: 5px; */
+    margin: 20px 0px 0px 10px;
+    font-size: large;
+    color: #fffffff0;
+    cursor: default;
+  }
+  .LTEXE2 {
+    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+  }
+  .mb-10 {
+    margin-bottom: 2.5rem;
+    margin-left: 5px;
+  }
+  /* ConteinerParagrafo */
+  .CTexExe {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* paragrafo */
+  .pExe1 {
+    font-size: 11px;
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.687);
+    cursor: pointer;
+  }
+  /* Risposta EXE */
+  .EXESV {
+    max-width: 100%;
+  }
+  .CEXESVTEXT {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .CEXESVTEXT .EXESVTEXT {
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    font-size: 11px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  /* TextEXE */
+  .EXEROW {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Conteiner esercizi */
+  .CExercises {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+  }
+  #SP {
+    display: none;
+  }
+  .SC {
+    border: 1px solid #434141;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 1px 1px #434141;
+    position: absolute;
+    background-color: #5a565690;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    z-index: 999;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+    bottom: 0px;
+  }
+  .Cfooter {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+  }
+.footer {
+  display: flex;
+}
+
+  .cont-EXE {
+    margin: 50px;
+  }
+
+
+
+  }
+@media only screen and (min-width: 460px) and (max-width: 699px) {
+     /* universal */
+     * {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      .JCH {
+        transition: 0.5s;
+        max-width: 100%;
+      }
+
+  /* Head */
+
+    /* Barra Menù orizzontale */
+      .JM{
+        transition: 0.5s;
+      }
+
+    /* container Menù Sez 3*/
+
+      .LMP {
+        width: auto;
+        padding: 5px;
+        justify-items: right;
+      }
+    /* menù verticale User */
+      .I-5 {
+        font-size: 20px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+      }
+    /* NAME USER */
+      .I-5 .UM {
+        margin: 5px;
+        overflow: hidden;
+        color: #b2d1ff;
+        font-style: italic;
+        font-family: sans-serif;
+      }
+    /* Cont USER */
+      .I-5 .US {
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        width: 50px;
+        height: 33px;
+        align-items: center;
+        border-radius: 50px 50pc;
+        background: #03e8f438;
+        position: relative;
+        box-shadow: 4px 2px 4px #00000150;
+      }
+    /* IMG USER */
+      .I-5 .IMGMA {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        border-radius: 50px;
+        background-color: #ffffff00;
+        background: #03e8f400;
+        position: relative;
+        box-shadow: 4px 2px 4px #00000150;
+      }
+
+    /* menù verticale User*/
+      .MTL {
+        display: none;
+      }
+      #MeTL {
+        backdrop-filter: blur(1px);
+        z-index: 999;
+        background-color: rgb(0, 0, 0);
+        width: 200px;
+        height: auto;
+        right: 0px;
+        opacity: 70%;
+        /* overflow: hidden; */ /* Actived Solo quando User a fatto l'accesso */
+        transition: 0.5s;
+        position: absolute;
+      }
+      .OF-H {
+        overflow: hidden; /* Active when logged in */
+      }
+      #MeTL li .L-5 {
+        padding: 20px 20px;
+        width: auto;
+        list-style: none;
+        color: #b2d1ff;
+        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: 0.5s;
+      }
+      #MeTL li .L-5:hover {
+        letter-spacing: 4px;
+        transition: 0.5s;
+      }
+
+      #MeTL  li:hover {
+        background: #03e8f48c;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 10px #03e9f4;
+        transition: 0.5s;
+      }
+      #MeTL  li {
+        transition: 0.4s;
+        padding: 10px;
+        width: auto;
+        list-style: none;
+        cursor: pointer;
+      }
+    /* menù Verticale GUEST */
+      .CML {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+      }
+      .ML {
+        background-color: #b2d1ff;
+        height: 5px;
+        width: 35px;
+        margin: 2px;
+        border-radius: 50px 0px 50px 0px;
+      }
+
+    /* Link menù verticale Guest*/
+      #MeTL form span a li:hover {
+        background: #03e8f48c;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 10px #03e9f4;
+        transition: 0.5s;
+      }
+      #MeTL form span a li:hover .BTM{
+        color: #fff;
+        transition: 0.5s;
+      }
+      #MeTL form span a li {
+        transition: 0.4s;
+        padding: 10px;
+        width: auto;
+        list-style: none;
+        color: #fff;
+        cursor: pointer;
+        letter-spacing: 2px;
+      }
+      #MeTL form span a:hover {
+        transition: 0.5s;
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+          0 0 10px #03e9f4;
+      }
+
+    /* BTN Accesso Menù Verticale */
+      .accedi {
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        width: 100%;
+        height: auto;
+        right: 0;
+        opacity: 70%;
+        padding: 10px 20px;
+        color: #00deea;
+        font-size: 16px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        justify-content: center;
+      }
+      .accedi span {
+        position: absolute;
+        display: block;
+      }
+      .accedi span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim1 1s linear infinite;
+      }
+      @keyframes Acc-anim1 {
+        0% {
+              left: -100%;
+            }
+        50%,
+        100% {
+              left: 100%;
+            }
+        }
+      .accedi span:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim2 1s linear infinite;
+        animation-delay: 0.25s;
+      }
+      @keyframes Acc-anim2 {
+        50%,
+        100% {
+          top: 100%;
+        }
+      }
+      .accedi span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim3 1s linear infinite;
+        animation-delay: 0.5s;
+      }
+      @keyframes Acc-anim3 {
+        50%,
+        100% {
+          right: 100%;
+        }
+      }
+      .accedi span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+        animation: Acc-anim4 1s linear infinite;
+        animation-delay: 0.75s;
+      }
+      @keyframes Acc-anim4 {
+        0% {
+          bottom: -100%;
+        }
+
+        50%,
+        100% {
+          bottom: 100%;
+        }
+      }
+
+    /* Menù Orizzontale */
+
+      .M {
+        background-color: rgb(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        z-index: 0;
+        justify-content: space-between;
+      }
+    /* title Menù */
+      .JM h1 {
+        color: white;
+        text-shadow: 2px 3px #ffffff31;
+        z-index: 1;
+        margin-left: 15px;
+      }
+    /* button menu */
+      .BTM {
+        font-weight: 700;
+        font-family: Courier, Courier, monospace;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: #03e8f497;
+        cursor: pointer;
+      }
+    /* listMenù orizzontale */
+      .A-10 {
+        display: none;
+      }
+      span .LM {
+        display: none;
+      }
+      span .LM3 {
+        display: none;
+      }
+    /*  Container IMG User */
+      .Us {
+        display: none;
+      }
+    /* Immaggine User */
+    /* Nomw User */
+      .LMP p {
+        display: none;
+      }
+    /* Menù User  */
+      .MT {
+        display: none;
+      }
+    /* Box Menù User */
+      #MeT {
+        display: none;
+      }
+    /* BOX User */
+      #MeTL .L-1 {
+        position: absolute;
+        display: block;
+      }
+      #MeTL .L-1:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+        animation: box-anim1 1s linear infinite;
+      }
+
+      @keyframes box-anim1 {
+        0% {
+          left: -100%;
+        }
+
+        50%,
+        100% {
+          left: 100%;
+        }
+      }
+
+      #MeTL .L-1:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+        animation: box-anim2 1s linear infinite;
+        animation-delay: 0.25s;
+      }
+
+      @keyframes box-anim2 {
+        50%,
+        100% {
+          top: 100%;
+        }
+      }
+
+      #MeTL .L-1:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+        animation: box-anim3 1s linear infinite;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes box-anim3 {
+        50%,
+        100% {
+          right: 100%;
+        }
+      }
+
+      #MeTL .L-1:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+        animation: box-anim4 1s linear infinite;
+        animation-delay: 0.75s;
+      }
+
+      @keyframes box-anim4 {
+        0% {
+          bottom: -100%;
+        }
+
+        50%,
+        100% {
+          bottom: 100%;
+        }
+    }
+    /* End Menu 2 */
+  /* End Head */
+    
+
+  /* Body */
+
+    /* Body Pagina */
+
+      .allbody {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        background: #1b2d40;
+      }
+
+      .bodyI {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        /* background-image: url("img/sfondo2.jpg"); */
+        background: #243b55;
+        background-size: auto;
+      }
+
+      .BodyE {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        /* background: url("img/sfondo.jpg") no-repeat; */
+        background: #243b55;
+        background-size: cover;
+      }
+  /* BodyH */
+    /* Link Pagina */
+  .CLinkPag {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .CLinkPag a {
+    text-decoration: none;
+  }
+
+  .linkP {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgba(153, 0, 255, 0.805);
+    text-shadow: 1px 1px 1px rgb(255, 248, 248);
+    transition: 0.5s;
+    
+  }
+  .linkP:hover {
+    padding: 5px;
+    background: rgba(153, 0, 255, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+    0 0 25px rgba(153, 0, 255, 0.805),
+    0 0 50px rgba(153, 0, 255, 0.805),
+    0 0 10px rgba(153, 0, 255, 0.805);
+    letter-spacing: 2px;
+  }
+
+  .linkP1 {
+    color: #5a565690;
+  }
+  /*  End BodyH */
+  /* //Section */
+   /* PG PhpExe */
+  /* title list phpexE */
+  .TT-10 {
+    margin: 50px 0px 50px 0px;
+  }
+  span h2.Title4 a {
+    font-size: xx-large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  .Title4 {
+    font-size: xxx-large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  /* Paragrafo list phpExe */
+  .PEXE a {
+    margin: 10px 10px 0px 10px;
+    color: rgba(255, 255, 255, 0.687) !important;
+    font-family: monospace;
+    font-size: xx-large;
+  }
+  /* LinKExe & ol PhpExe */
+  .CLTEXE {
+    margin-left: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.211);
+    padding: 5px;
+  }
+  .L-1 {
+    letter-spacing: 2px;
+  }
+  .L-1 a:hover {
+        padding: 5px;
+        background: rgba(153, 0, 255, 0.805);
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+        0 0 25px rgba(153, 0, 255, 0.805),
+        0 0 50px rgba(153, 0, 255, 0.805),
+        0 0 10px rgba(153, 0, 255, 0.805);
+        letter-spacing: 4px;
+  }
+  .LTEXE {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 10px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE1 {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 0px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  .LTEXE1 a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  /* NotaPhpexe */
+  p.notepxpexe {
+    font-size: xx-small;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.687);
+  }
+  /* esercizi con soluzioni */
+  /* title */
+  .LTEXE2 a {
+    font-family: math;
+    /*  padding: 5px; */
+    margin: 20px 0px 0px 10px;
+    font-size: large;
+    color: #fffffff0;
+    cursor: default;
+  }
+  .LTEXE2 {
+    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+  }
+  .mb-10 {
+    margin-bottom: 2.5rem;
+    margin-left: 5px;
+  }
+  /* ConteinerParagrafo */
+  .CTexExe {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* paragrafo */
+  .pExe1 {
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.687);
+    cursor: pointer;
+  }
+  /* Risposta EXE */
+  .EXESV {
+    max-width: 100%;
+  }
+  .CEXESVTEXT {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .CEXESVTEXT .EXESVTEXT {
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  /* TextEXE */
+  .EXEROW {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Conteiner esercizi */
+  .CExercises {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  #SP {
+    display: none;
+  }
+  .SC {
+    border: 1px solid #434141;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 1px 1px #434141;
+    position: absolute;
+    background-color: #5a565690;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    z-index: 999;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+    bottom: 0px;
+  }
+  .Cfooter {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+  }
+.footer {
+  display: flex;
+}
+
+  .cont-EXE {
+    margin: 50px;
+  }
+  
+  }
+@media only screen and (min-width: 700px) and (max-width: 989px) {
+    /* universal */
+    * {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    .JCH {
+      transition: 0.5s;
+      max-width: 100%;
+    }
+
+/* Head */
+
+    /* Barra Menù orizzontale */
+    .JM{
+      transition: 0.5s;
+    }
+
+/* Menù Verticale */
+#MeTL {
+  display: none;
+}
+/* Menù */
+
+.M {
+  position: sticky;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  z-index: 0;
+  justify-content: space-between;
+}
+/* button menu */
+.BTM {
+  font-weight: 700;
+  font-family: Courier, Courier, monospace;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgba(153, 0, 255, 0.805);
+  cursor: pointer;
+}
+
+/* title Menù */
+.JM h1 {
+  color: white;
+  text-shadow: 2px 3px #ffffff31;
+  z-index: 1;
+  margin-left: 15px;
+}
+
+/* listMenù orizzontale */
+.JM span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span .LM {
+  list-style: none;
+  padding: 5px;
+  margin: 10px 30px;
+  z-index: 1;
+  color: #adf0f3;
+  box-shadow: 2px 2px 2px 2px rgba(153, 0, 255, 0.805);
+  cursor: pointer;
+  width: max-content;
+}
+span .LM3 {
+  background-color: #03e8f411;
+}
+
+/* container User*/
+
+.LMP {
+  width: auto;
+  padding: 5px;
+  justify-items: right;
+  border-left: 2px solid #b2d1ff;
+}
+
+/*  Container IMG User */
+.Us {
+  cursor: pointer;
+  width: 50px;
+  height: 33px;
+  align-items: center;
+  border-radius: 50px 50pc;
+  background: #03e8f438;
+  position: relative;
+  box-shadow: 4px 2px 4px #00000150;
+}
+
+/* Immaggine User */
+
+.IMGMA {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #ffffff00;
+  background: #03e8f400;
+  position: relative;
+  box-shadow: 4px 2px 4px #00000150;
+}
+
+/* Nomw User */
+.LMP p {
+  margin: 5px;
+  overflow: hidden;
+  color: #b2d1ff;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+/* Menù User  */
+.MT {
+  display: none;
+}
+
+/* Box Menù User */
+#MeT {
+  position: absolute;
+  z-index: 900;
+  background: rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: auto;
+  right: 0;
+  opacity: 70%;
+  color: #00deea;
+  font-size: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+}
+
+  /* List Menù User */
+    .L-5 {
+      padding: 20px 20px;
+      width: 100%;
+      list-style: none;
+      color: #b2d1ff;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    li.L-5:hover{
+      transition: 0.5s;
+      background: #03e8f48c;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 50px #03e9f4,
+      0 0 10px #03e9f4;
+    }
+
+
+/* BOX User */
+#MeT span {
+  position: absolute;
+  display: block;
+}
+
+#MeT span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+  animation: box-anim1 1s linear infinite;
+}
+
+@keyframes box-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+#MeT span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+  animation: box-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes box-anim2 {
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+#MeT span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+  animation: box-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes box-anim3 {
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+#MeT span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+  animation: box-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes box-anim4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+/* Menù Guest */
+#MeTL span li {
+  display: none;
+}
+
+#MeTL span p {
+  display: none;
+}
+#MeTL span img {
+  display: none;
+}
+
+/* BTM LOGIN */
+
+.LMP a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #00deea;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+}
+
+.LMP a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4, 
+  0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 10px #03e9f4;
+}
+
+.LMP a span {
+  position: absolute;
+  display: block;
+}
+
+.LMP a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.LMP a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+  /* 0% {
+    left: -100%;
+} */
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.LMP a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+  /*  0% {
+    right: 100%;
+} */
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+/* Body */
+
+/* Body Pagina */
+
+.allbody {
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+  /* background-color: #343434; */
+  background: #1b2d40;
+}
+
+.bodyI {
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+  background: #243b55;
+  background-size: auto;
+}
+
+.BodyE {
+  transition: 0.5s;
+  height: 100%;
+  width: 100%;
+  background: #243b55;
+  background-size: cover;
+}
+
+/* HeadBody */
+
+
+  /* Link Pagina */
+    .CLinkPag {
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .CLinkPag a {
+      text-decoration: none;
+    }
+
+    .linkP {
+      margin-right: 10px;
+      margin-left: 10px;
+      color: rgba(153, 0, 255, 0.805);
+      text-shadow: 1px 1px 1px rgb(255, 248, 248);
+      transition: 0.5s;
+      
+    }
+    .linkP:hover {
+      padding: 5px;
+      background: rgba(153, 0, 255, 0.805);
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+      0 0 25px rgba(153, 0, 255, 0.805),
+      0 0 50px rgba(153, 0, 255, 0.805),
+      0 0 10px rgba(153, 0, 255, 0.805);
+      letter-spacing: 2px;
+    }
+
+    .linkP1 {
+      color: #5a565690;
+    }
+
+  /* List PhpExe */
+/* title list phpexE */
+.TT-10 {
+  margin: 50px 0px 50px 0px;
+}
+span h2.Title4 a {
+  font-size: xx-large;
+  font-family: math;
+  padding: 10px;
+  color: #fffffff0;
+  margin-top: 10px;
+}
+.Title4 {
+  font-size: xxx-large;
+  font-family: math;
+  padding: 10px;
+  color: #fffffff0;
+  margin-top: 10px;
+}
+/* Paragrafo list phpExe */
+.PEXE a {
+  margin: 10px 10px 0px 10px;
+  color: rgba(255, 255, 255, 0.687) !important;
+  font-family: monospace;
+  font-size: xx-large;
+}
+/* LinKExe & ol PhpExe */
+.CLTEXE {
+  margin-left: 15px;
+  border-left: 1px solid rgba(255, 255, 255, 0.211);
+  padding: 5px;
+}
+.L-1 {
+  letter-spacing: 2px;
+}
+.L-1 a:hover {
+      padding: 5px;
+      background: rgba(153, 0, 255, 0.805);
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+      0 0 25px rgba(153, 0, 255, 0.805),
+      0 0 50px rgba(153, 0, 255, 0.805),
+      0 0 10px rgba(153, 0, 255, 0.805);
+      letter-spacing: 4px;
+}
+.LTEXE {
+  list-style: none;
+  /*  padding: 5px; */
+  margin: 10px 0px 0px 0px;
+  font-family: monospace;
+  font-size: large;
+}
+.LTEXE1 {
+  list-style: none;
+  /*  padding: 5px; */
+  margin: 0px 0px 0px 0px;
+  font-family: monospace;
+  font-size: large;
+}
+.LTEXE a {
+  color: rgba(255, 255, 255, 0.687) !important;
+}
+.LTEXE1 a {
+  color: rgba(255, 255, 255, 0.687) !important;
+}
+/* NotaPhpexe */
+p.notepxpexe {
+  margin: 20px;
+  color: rgba(255, 255, 255, 0.687);
+}
+/* esercizi con soluzioni */
+/* title */
+.LTEXE2 a {
+  font-family: math;
+  /*  padding: 5px; */
+  margin: 20px 0px 0px 10px;
+  font-size: large;
+  color: #fffffff0;
+  cursor: default;
+}
+.LTEXE2 {
+  margin-bottom: 0.25rem;
+  margin-top: 1rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
+  margin-left: 5px;
+}
+/* ConteinerParagrafo */
+.CTexExe {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* paragrafo */
+.pExe1 {
+  width: 800px;
+  margin: 5px 0px 0px 0px;
+  color: rgba(255, 255, 255, 0.687);
+  cursor: pointer;
+}
+/* Risposta EXE */
+.EXESV {
+  max-width: 100%;
+}
+.CEXESVTEXT {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.CEXESVTEXT .EXESVTEXT {
+  border-radius: 10px;
+  background-color: #1b1b1b;
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+/* TextEXE */
+.EXEROW {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Conteiner esercizi */
+.CExercises {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+#SP {
+  display: none;
+}
+.SC {
+  border: 1px solid #434141;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 1px 1px #434141;
+  position: absolute;
+  background-color: #5a565690;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  z-index: 999;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  bottom: 0px;
+}
+.Cfooter {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100px;
+}
+.footer {
+display: flex;
+}
+
+.cont-EXE {
+  margin: 50px;
+}
+  }
+@media only screen and (min-width: 990px) and (max-width: 1219px) {
+          /* universal */
+          * {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+
+          li {
+            list-style: none;
+          }
+          a {
+            text-decoration: none;
+          }
+          .JCH {
+            transition: 0.5s;
+            max-width: 100%;
+          }
+
+      /* Head */
+
+          /* Barra Menù orizzontale */
+          .JM{
+            transition: 0.5s;
+          }
+
+      /* Menù Verticale */
+      #MeTL {
+        display: none;
+      }
+      /* Menù */
+
+      .M {
+        position: sticky;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        z-index: 0;
+        justify-content: space-between;
+      }
+      /* button menu */
+      .BTM {
+        font-weight: 700;
+        font-family: Courier, Courier, monospace;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        color: rgba(153, 0, 255, 0.805);
+        cursor: pointer;
+      }
+
+      /* title Menù */
+      .JM h1 {
+        color: white;
+        text-shadow: 2px 3px #ffffff31;
+        z-index: 1;
+        margin-left: 15px;
+      }
+
+      /* listMenù orizzontale */
+      .JM span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      span .LM {
+        list-style: none;
+        padding: 5px;
+        margin: 10px 30px;
+        z-index: 1;
+        color: #adf0f3;
+        box-shadow: 2px 2px 2px 2px rgba(153, 0, 255, 0.805);
+        cursor: pointer;
+        width: max-content;
+      }
+      span .LM3 {
+        background-color: #03e8f411;
+      }
+
+      /* container User*/
+
+      .LMP {
+        width: auto;
+        padding: 5px;
+        justify-items: right;
+        border-left: 2px solid #b2d1ff;
+      }
+
+      /*  Container IMG User */
+      .Us {
+        cursor: pointer;
+        width: 50px;
+        height: 33px;
+        align-items: center;
+        border-radius: 50px 50pc;
+        background: #03e8f438;
+        position: relative;
+        box-shadow: 4px 2px 4px #00000150;
+      }
+
+      /* Immaggine User */
+
+      .IMGMA {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        align-items: center;
+        border-radius: 50px;
+        background-color: #ffffff00;
+        background: #03e8f400;
+        position: relative;
+        box-shadow: 4px 2px 4px #00000150;
+      }
+
+      /* Nomw User */
+      .LMP p {
+        margin: 5px;
+        overflow: hidden;
+        color: #b2d1ff;
+        font-style: italic;
+        font-family: sans-serif;
+      }
+
+      /* Menù User  */
+      .MT {
+        display: none;
+      }
+
+      /* Box Menù User */
+      #MeT {
+        position: absolute;
+        z-index: 900;
+        background: rgba(0, 0, 0, 0.5);
+        width: 200px;
+        height: auto;
+        right: 0;
+        opacity: 70%;
+        color: #00deea;
+        font-size: 16px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.5s;
+        letter-spacing: 4px;
+      }
+
+        /* List Menù User */
+          .L-5 {
+            padding: 20px 20px;
+            width: 100%;
+            list-style: none;
+            color: #b2d1ff;
+            cursor: pointer;
+            text-decoration: none;
+          }
+          li.L-5:hover{
+            transition: 0.5s;
+            background: #03e8f48c;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #03e9f4,
+            0 0 25px #03e9f4,
+            0 0 50px #03e9f4,
+            0 0 10px #03e9f4;
+          }
+
+
+      /* BOX User */
+      #MeT span {
+        position: absolute;
+        display: block;
+      }
+
+      #MeT span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+        animation: box-anim1 1s linear infinite;
+      }
+
+      @keyframes box-anim1 {
+        0% {
+          left: -100%;
+        }
+
+        50%,
+        100% {
+          left: 100%;
+        }
+      }
+
+      #MeT span:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+        animation: box-anim2 1s linear infinite;
+        animation-delay: 0.25s;
+      }
+
+      @keyframes box-anim2 {
+        50%,
+        100% {
+          top: 100%;
+        }
+      }
+
+      #MeT span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+        animation: box-anim3 1s linear infinite;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes box-anim3 {
+        50%,
+        100% {
+          right: 100%;
+        }
+      }
+
+      #MeT span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+        animation: box-anim4 1s linear infinite;
+        animation-delay: 0.75s;
+      }
+
+      @keyframes box-anim4 {
+        0% {
+          bottom: -100%;
+        }
+
+        50%,
+        100% {
+          bottom: 100%;
+        }
+      }
+
+      /* Menù Guest */
+      #MeTL span li {
+        display: none;
+      }
+
+      #MeTL span p {
+        display: none;
+      }
+      #MeTL span img {
+        display: none;
+      }
+
+      /* BTM LOGIN */
+
+      .LMP a {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #00deea;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: 0.5s;
+        letter-spacing: 4px;
+      }
+
+      .LMP a:hover {
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4, 
+        0 0 25px #03e9f4, 0 0 50px #03e9f4,
+          0 0 10px #03e9f4;
+      }
+
+      .LMP a span {
+        position: absolute;
+        display: block;
+      }
+
+      .LMP a span:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+        animation: btn-anim1 1s linear infinite;
+      }
+
+      @keyframes btn-anim1 {
+        0% {
+          left: -100%;
+        }
+
+        50%,
+        100% {
+          left: 100%;
+        }
+      }
+
+      .LMP a span:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+        animation: btn-anim2 1s linear infinite;
+        animation-delay: 0.25s;
+      }
+
+      @keyframes btn-anim2 {
+        /* 0% {
+          left: -100%;
+      } */
+        50%,
+        100% {
+          top: 100%;
+        }
+      }
+
+      .LMP a span:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+        animation: btn-anim3 1s linear infinite;
+        animation-delay: 0.5s;
+      }
+
+      @keyframes btn-anim3 {
+        /*  0% {
+          right: 100%;
+      } */
+        50%,
+        100% {
+          right: 100%;
+        }
+      }
+
+      /* Body */
+
+      /* Body Pagina */
+
+      .allbody {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        /* background-color: #343434; */
+        background: #1b2d40;
+      }
+
+      .bodyI {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        background: #243b55;
+        background-size: auto;
+      }
+
+      .BodyE {
+        transition: 0.5s;
+        height: 100%;
+        width: 100%;
+        background: #243b55;
+        background-size: cover;
+      }
+
+      /* HeadBody */
+
+        /* Link Pagina */
+          .CLinkPag {
+            margin: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+
+          .CLinkPag a {
+            text-decoration: none;
+          }
+
+          .linkP {
+            margin-right: 10px;
+            margin-left: 10px;
+            color: rgba(153, 0, 255, 0.805);
+            text-shadow: 1px 1px 1px rgb(255, 248, 248);
+            transition: 0.5s;
+            
+          }
+          .linkP:hover {
+            padding: 5px;
+            background: rgba(153, 0, 255, 0.805);
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+            0 0 25px rgba(153, 0, 255, 0.805),
+            0 0 50px rgba(153, 0, 255, 0.805),
+            0 0 10px rgba(153, 0, 255, 0.805);
+            letter-spacing: 2px;
+          }
+
+          .linkP1 {
+            color: #5a565690;
+          }
+
+        /* List PhpExe */
+      /* title list phpexE */
+      .TT-10 {
+        margin: 50px 0px 50px 0px;
+      }
+      span h2.Title4 a {
+        font-size: xx-large;
+        font-family: math;
+        padding: 10px;
+        color: #fffffff0;
+        margin-top: 10px;
+      }
+      .Title4 {
+        font-size: xxx-large;
+        font-family: math;
+        padding: 10px;
+        color: #fffffff0;
+        margin-top: 10px;
+      }
+      /* Paragrafo list phpExe */
+      .PEXE a {
+        margin: 10px 10px 0px 10px;
+        color: rgba(255, 255, 255, 0.687) !important;
+        font-family: monospace;
+        font-size: xx-large;
+      }
+      /* LinKExe & ol PhpExe */
+      .CLTEXE {
+        margin-left: 15px;
+        border-left: 1px solid rgba(255, 255, 255, 0.211);
+        padding: 5px;
+      }
+      .L-1 {
+        letter-spacing: 2px;
+        font-size: large;
+      }
+      .L-1 a:hover {
+            padding: 5px;
+            background: rgba(153, 0, 255, 0.805);
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+            0 0 25px rgba(153, 0, 255, 0.805),
+            0 0 50px rgba(153, 0, 255, 0.805),
+            0 0 10px rgba(153, 0, 255, 0.805);
+            letter-spacing: 4px;
+      }
+      .LTEXE {
+        list-style: none;
+        /*  padding: 5px; */
+        margin: 10px 0px 0px 0px;
+        font-family: monospace;
+      }
+      .LTEXE1 {
+        list-style: none;
+        /*  padding: 5px; */
+        margin: 0px 0px 0px 0px;
+        font-family: monospace;
+      }
+      .LTEXE a {
+        color: rgba(255, 255, 255, 0.687) !important;
+      }
+      .LTEXE1 a {
+        color: rgba(255, 255, 255, 0.687) !important;
+      }
+      /* NotaPhpexe */
+      p.notepxpexe {
+        margin: 20px;
+        color: rgba(255, 255, 255, 0.687);
+      }
+      /* esercizi con soluzioni */
+      /* title */
+      .LTEXE2 a {
+        font-family: math;
+        /*  padding: 5px; */
+        margin: 20px 0px 0px 10px;
+        font-size: large;
+        color: #fffffff0;
+        cursor: default;
+      }
+      .LTEXE2 {
+        margin-bottom: 0.25rem;
+        margin-top: 1rem;
+      }
+      .mb-10 {
+        margin-bottom: 2.5rem;
+        margin-left: 5px;
+      }
+      /* ConteinerParagrafo */
+      .CTexExe {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      /* paragrafo */
+      .pExe1 {
+        width: 800px;
+        margin: 5px 0px 0px 0px;
+        color: rgba(255, 255, 255, 0.687);
+        cursor: pointer;
+      }
+      /* Risposta EXE */
+      .EXESV {
+        max-width: 100%;
+      }
+      .CEXESVTEXT {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+      }
+      .CEXESVTEXT .EXESVTEXT {
+        border-radius: 10px;
+        background-color: #1b1b1b;
+        width: 600px;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 30px;
+      }
+      /* TextEXE */
+      .EXEROW {
+        display: flex;
+        flex-direction: row;
+      }
+
+      /* Conteiner esercizi */
+      .CExercises {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+      }
+      #SP {
+        display: none;
+      }
+      .SC {
+        border: 1px solid #434141;
+        border-radius: 0px 0px 50px 50px;
+        box-shadow: 1px 1px #434141;
+        position: absolute;
+        background-color: #5a565690;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        z-index: 999;
+      }
+
+      /* Footer */
+      footer {
+        width: 100%;
+        bottom: 0px;
+      }
+      .Cfooter {
+        background-color: rgb(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100px;
+      }
+      .footer {
+      display: flex;
+      }
+
+      .cont-EXE {
+        margin: 50px;
+      }
+}
+@media only screen and (min-width: 1220px) {
+     /* universal */
+     * {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      .JCH {
+        transition: 0.5s;
+        max-width: 100%;
+      }
+
+  /* Head */
+
+      /* Barra Menù orizzontale */
+      .JM{
+        transition: 0.5s;
+      }
+
+  /* Menù Verticale */
+  #MeTL {
+    display: none;
+  }
+  /* Menù */
+
+  .M {
+    position: sticky;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    justify-content: space-between;
+  }
+  /* button menu */
+  .BTM {
+    font-weight: 700;
+    font-family: Courier, Courier, monospace;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgba(153, 0, 255, 0.805);
+    cursor: pointer;
+  }
+
+  /* title Menù */
+  .JM h1 {
+    color: white;
+    text-shadow: 2px 3px #ffffff31;
+    z-index: 1;
+    margin-left: 15px;
+  }
+
+  /* listMenù orizzontale */
+  .JM span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  span .LM {
+    list-style: none;
+    padding: 5px;
+    margin: 10px 30px;
+    z-index: 1;
+    color: #adf0f3;
+    box-shadow: 2px 2px 2px 2px rgba(153, 0, 255, 0.805);
+    cursor: pointer;
+    width: max-content;
+  }
+  span .LM3 {
+    background-color: #03e8f411;
+  }
+
+  /* container User*/
+
+  .LMP {
+    width: auto;
+    padding: 5px;
+    justify-items: right;
+    border-left: 2px solid #b2d1ff;
+  }
+
+  /*  Container IMG User */
+  .Us {
+    cursor: pointer;
+    width: 50px;
+    height: 33px;
+    align-items: center;
+    border-radius: 50px 50pc;
+    background: #03e8f438;
+    position: relative;
+    box-shadow: 4px 2px 4px #00000150;
+  }
+
+  /* Immaggine User */
+
+  .IMGMA {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #ffffff00;
+    background: #03e8f400;
+    position: relative;
+    box-shadow: 4px 2px 4px #00000150;
+  }
+
+  /* Nomw User */
+  .LMP p {
+    margin: 5px;
+    overflow: hidden;
+    color: #b2d1ff;
+    font-style: italic;
+    font-family: sans-serif;
+  }
+
+  /* Menù User  */
+  .MT {
+    display: none;
+  }
+
+  /* Box Menù User */
+  #MeT {
+    position: absolute;
+    z-index: 900;
+    background: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: auto;
+    right: 0;
+    opacity: 70%;
+    color: #00deea;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+  }
+
+    /* List Menù User */
+      .L-5 {
+        padding: 20px 20px;
+        width: 100%;
+        list-style: none;
+        color: #b2d1ff;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      li.L-5:hover{
+        transition: 0.5s;
+        background: #03e8f48c;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 10px #03e9f4;
+      }
+  
+
+  /* BOX User */
+  #MeT span {
+    position: absolute;
+    display: block;
+  }
+
+  #MeT span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+    animation: box-anim1 1s linear infinite;
+  }
+
+  @keyframes box-anim1 {
+    0% {
+      left: -100%;
+    }
+
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+
+  #MeT span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+    animation: box-anim2 1s linear infinite;
+    animation-delay: 0.25s;
+  }
+
+  @keyframes box-anim2 {
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+
+  #MeT span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+    animation: box-anim3 1s linear infinite;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes box-anim3 {
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+
+  #MeT span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, #03e9f4, #03e8f40d);
+    animation: box-anim4 1s linear infinite;
+    animation-delay: 0.75s;
+  }
+
+  @keyframes box-anim4 {
+    0% {
+      bottom: -100%;
+    }
+
+    50%,
+    100% {
+      bottom: 100%;
+    }
+  }
+
+  /* Menù Guest */
+  #MeTL span li {
+    display: none;
+  }
+
+  #MeTL span p {
+    display: none;
+  }
+  #MeTL span img {
+    display: none;
+  }
+
+  /* BTM LOGIN */
+
+  .LMP a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #00deea;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    letter-spacing: 4px;
+  }
+
+  .LMP a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 
+    0 0 25px #03e9f4, 0 0 50px #03e9f4,
+      0 0 10px #03e9f4;
+  }
+
+  .LMP a span {
+    position: absolute;
+    display: block;
+  }
+
+  .LMP a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #03e9f4, #03e8f40d);
+    animation: btn-anim1 1s linear infinite;
+  }
+
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+
+    50%,
+    100% {
+      left: 100%;
+    }
+  }
+
+  .LMP a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, #03e9f4, #03e8f40d);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: 0.25s;
+  }
+
+  @keyframes btn-anim2 {
+    /* 0% {
+      left: -100%;
+  } */
+    50%,
+    100% {
+      top: 100%;
+    }
+  }
+
+  .LMP a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, #03e9f4, #03e8f40d);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: 0.5s;
+  }
+
+  @keyframes btn-anim3 {
+    /*  0% {
+      right: 100%;
+  } */
+    50%,
+    100% {
+      right: 100%;
+    }
+  }
+
+  /* Body */
+
+  /* Body Pagina */
+
+  .allbody {
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    /* background-color: #343434; */
+    background: #1b2d40;
+  }
+
+  .bodyI {
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    background: #243b55;
+    background-size: auto;
+  }
+
+  .BodyE {
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    background: #243b55;
+    background-size: cover;
+  }
+
+  /* HeadBody */
+    /* Link Pagina */
+      .CLinkPag {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .CLinkPag a {
+        text-decoration: none;
+      }
+  
+      .linkP {
+        margin-right: 10px;
+        margin-left: 10px;
+        color: rgba(153, 0, 255, 0.805);
+        text-shadow: 1px 1px 1px rgb(255, 248, 248);
+        transition: 0.5s;
+        
+      }
+      .linkP:hover {
+        padding: 5px;
+        background: rgba(153, 0, 255, 0.805);
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+        0 0 25px rgba(153, 0, 255, 0.805),
+        0 0 50px rgba(153, 0, 255, 0.805),
+        0 0 10px rgba(153, 0, 255, 0.805);
+        letter-spacing: 2px;
+      }
+  
+      .linkP1 {
+        color: #5a565690;
+      }
+  
+    /* List PhpExe */
+  /* title list phpexE */
+  .TT-10 {
+    margin: 50px 0px 50px 0px;
+  }
+  span h2.Title4 a {
+    font-size: xx-large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  .Title4 {
+    font-size: xxx-large;
+    font-family: math;
+    padding: 10px;
+    color: #fffffff0;
+    margin-top: 10px;
+  }
+  /* Paragrafo list phpExe */
+  .PEXE a {
+    margin: 10px 10px 0px 10px;
+    color: rgba(255, 255, 255, 0.687) !important;
+    font-family: monospace;
+    font-size: xx-large;
+  }
+  /* LinKExe & ol PhpExe */
+  .CLTEXE {
+    margin-left: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.211);
+    padding: 5px;
+  }
+  .L-1 {
+    letter-spacing: 2px;
+  }
+  .L-1 a:hover {
+        padding: 5px;
+        background: rgba(153, 0, 255, 0.805);
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(153, 0, 255, 0.805),
+        0 0 25px rgba(153, 0, 255, 0.805),
+        0 0 50px rgba(153, 0, 255, 0.805),
+        0 0 10px rgba(153, 0, 255, 0.805);
+        letter-spacing: 4px;
+  }
+  .LTEXE {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 10px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE1 {
+    list-style: none;
+    /*  padding: 5px; */
+    margin: 0px 0px 0px 0px;
+    font-family: monospace;
+    font-size: large;
+  }
+  .LTEXE a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  .LTEXE1 a {
+    color: rgba(255, 255, 255, 0.687) !important;
+  }
+  /* NotaPhpexe */
+  p.notepxpexe {
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.687);
+  }
+  /* esercizi con soluzioni */
+  /* title */
+  .LTEXE2 a {
+    font-family: math;
+    /*  padding: 5px; */
+    margin: 20px 0px 0px 10px;
+    font-size: large;
+    color: #fffffff0;
+    cursor: default;
+  }
+  .LTEXE2 {
+    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+  }
+  .mb-10 {
+    margin-bottom: 2.5rem;
+    margin-left: 5px;
+  }
+  /* ConteinerParagrafo */
+  .CTexExe {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  /* paragrafo */
+  .pExe1 {
+    width: 800px;
+    margin: 5px 0px 0px 0px;
+    color: rgba(255, 255, 255, 0.687);
+    cursor: pointer;
+  }
+  /* Risposta EXE */
+  .EXESV {
+    max-width: 100%;
+  }
+  .CEXESVTEXT {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .CEXESVTEXT .EXESVTEXT {
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  /* TextEXE */
+  .EXEROW {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Conteiner esercizi */
+  .CExercises {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .CHExercises {
+    display: grid;
+    grid-template-rows: repeat(3,3fr);
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+  .HExercises {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .BExercises {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #SP {
+    display: none;
+  }
+  .SC {
+    border: 1px solid #434141;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 1px 1px #434141;
+    position: absolute;
+    background-color: #5a565690;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    z-index: 999;
+  }
+
+  /* Footer */
+  footer {
+    width: 100%;
+    bottom: 0px;
+  }
+  .Cfooter {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+  }
+.footer {
+  display: flex;
+}
+
+  .cont-EXE {
+    margin: 50px;
+  }
+  
+  }
