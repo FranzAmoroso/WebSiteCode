@@ -39,7 +39,7 @@ if (isset($_GET['MyBlog'])) {
 
 
                 <span class="LMP">
-                    <div class=" GUEST">
+                    <!-- <div class=" GUEST">
                         <a href="User/Login.php" class="A-10">
                             <span></span>
                             <span></span>
@@ -47,13 +47,11 @@ if (isset($_GET['MyBlog'])) {
                             <span></span>
                             Login
                         </a>
-                    </div>
-                    <div class="MT UsLogIn">
+                    </div> -->
                         <p class="UM">User</p>
                         <span class="Us">
                             <img src="img/user1.png" alt="Accedi" class="IMGMA fa-spin">
                         </span>
-                    </div>
                     <!-- Menù Verticale -->
                     <div class="CML ">
                         <div class="ML"></div>
@@ -138,7 +136,7 @@ if (isset($_GET['MyBlog'])) {
         </header>
 
 
-        <div class="CHB1">
+        <!-- <div class="CHB1">
             <div class="HB">
                 <div class="BHB">
                     <h2>Digital-Skill</h2>
@@ -152,7 +150,7 @@ if (isset($_GET['MyBlog'])) {
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
         <span class="title2">
             <h2>Language Hypertext Markup</h2>
@@ -219,7 +217,7 @@ if (isset($_GET['MyBlog'])) {
             </div>
 
             <div class="GB GB5">
-                <a href="js/javascriptExe.php" class="A-5 GTB1">
+                <a href="js/jsexe.html" class="A-5 GTB1">
                     <div class="LED">
                         <h3>Exercises</h3>
                         <p>javascript</p>

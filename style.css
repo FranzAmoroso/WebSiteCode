@@ -1,5 +1,31 @@
 @media only screen and (min-width: 0px) and (max-width: 345px) {
   /* universal */
+  ::-webkit-scrollbar { 
+    width: 10px;
+    background-color: rgba(169, 169, 169, 0);  
+    border-radius: 100px;  
+      }
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+      display: none; 
+    }
+  ::-webkit-scrollbar-thumb {
+      background-color: #a6141400;
+      border: 1px solid #00000000;
+      border-radius: 100px;   
+    }
+  ::-webkit-scrollbar-thumb:hover{
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0 100px 100px 0; 
+    }
+  ::-webkit-scrollbar-button {
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0px;
+      display: none;
+    }
       * {
         max-width: 100%;
         margin: 0;
@@ -426,8 +452,10 @@
         transition: 0.5s;
         height: 100%;
         width: 100%;
-        /* background-image: url("img/sfondo2.jpg"); */
-        background: #243b55;
+        background: linear-gradient(to top, #001dff47  50%, #004ba1 100%),
+                linear-gradient(to bottom, #001dff47 80%, #243b55 100%),
+                linear-gradient(to left, #001dff47 80%, #243b55 100%),
+                linear-gradient(to right, #001dff47 80%, #243b55 100%);
         background-size: auto;
       }
 
@@ -507,8 +535,14 @@
       cursor: pointer;
     }
     /* grid body */
+    .GB{
+      transition: 0.5s;
+      box-shadow: 2.5px 2.5px #00000090;
+    }
     .GB:hover {
-      box-shadow: 2px 2px 2px 2px #00000150;
+      font-weight: bold;
+      box-shadow: 3px 3px 3px 3px #00000150;
+      transform: scale(1.01);
     }
   
     .GB0 {
@@ -622,6 +656,16 @@
       background: url(img/java.png) center no-repeat;
       background-size: 100% 100%;
     }
+    .GB00{
+      display: flex;
+      align-items: flex-end;
+      border: 0px solid white;
+      border-radius: 25px;
+      width: 100%;
+      height: 250px;
+      background: transparent;
+      background-size: 100% 100%;
+    }
   
     /* Link Pag Linguaggi */
     .LED {
@@ -678,15 +722,21 @@
     .GTB1:hover {
       box-shadow: 2px 2px 0px 1px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB2:hover {
       box-shadow: 2px 2px 5px 0px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB3:hover {
       box-shadow: 2px 2px 2px 2px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
-    }
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
+    } 
   
     /* title 2 */
        .title2 {
@@ -713,7 +763,7 @@
     .GTB2 h3,
     .GTB3 h3 {
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      font-size: large;
+      font-size: medium;
     }
     
   
@@ -735,6 +785,32 @@
 }
 @media only screen and (min-width: 346px) and (max-width: 459px) {
   /* universal */
+  ::-webkit-scrollbar { 
+    width: 10px;
+    background-color: rgba(169, 169, 169, 0);  
+    border-radius: 100px;  
+      }
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+      display: none; 
+    }
+  ::-webkit-scrollbar-thumb {
+      background-color: #a6141400;
+      border: 1px solid #00000000;
+      border-radius: 100px;   
+    }
+  ::-webkit-scrollbar-thumb:hover{
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0 100px 100px 0; 
+    }
+  ::-webkit-scrollbar-button {
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0px;
+      display: none;
+    }
       * {
         max-width: 100%;
         margin: 0;
@@ -1153,8 +1229,10 @@
         transition: 0.5s;
         height: 100%;
         width: 100%;
-        /* background-image: url("img/sfondo2.jpg"); */
-        background: #243b55;
+        background: linear-gradient(to top, #001dff47  50%, #004ba1 100%),
+                linear-gradient(to bottom, #001dff47 80%, #243b55 100%),
+                linear-gradient(to left, #001dff47 80%, #243b55 100%),
+                linear-gradient(to right, #001dff47 80%, #243b55 100%);
         background-size: auto;
       }
 
@@ -1222,15 +1300,21 @@
   
     /* container BodyB */
     .CGB {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      flex-wrap: wrap;
       gap: 20px;
       margin: 10px;
       cursor: pointer;
     }
     /* grid body */
+    .GB {
+      flex-grow: 1;
+      flex-basis: 250px;
+    }
     .GB:hover {
-      box-shadow: 2px 2px 2px 2px #00000150;
+      font-weight: bold;
+      box-shadow: 3px 3px 3px 3px #00000150;
+      transform: scale(1.01);
     }
   
     .GB0 {
@@ -1401,15 +1485,21 @@
     .GTB1:hover {
       box-shadow: 2px 2px 0px 1px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB2:hover {
       box-shadow: 2px 2px 5px 0px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB3:hover {
       box-shadow: 2px 2px 2px 2px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
-    }
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
+    } 
   
     /* title 2 */
      span.title2 {
@@ -1457,6 +1547,32 @@
 }
 @media only screen and (min-width: 460px) and (max-width: 699px) {
   /* universal */
+  ::-webkit-scrollbar { 
+    width: 10px;
+    background-color: rgba(169, 169, 169, 0);  
+    border-radius: 100px;  
+      }
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+      display: none; 
+    }
+  ::-webkit-scrollbar-thumb {
+      background-color: #a6141400;
+      border: 1px solid #00000000;
+      border-radius: 100px;   
+    }
+  ::-webkit-scrollbar-thumb:hover{
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0 100px 100px 0; 
+    }
+  ::-webkit-scrollbar-button {
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0px;
+      display: none;
+    }
       * {
         max-width: 100%;
         margin: 0;
@@ -1866,8 +1982,10 @@
         transition: 0.5s;
         height: 100%;
         width: 100%;
-        /* background-image: url("img/sfondo2.jpg"); */
-        background: #243b55;
+        background: linear-gradient(to top, #001dff47  50%, #004ba1 100%),
+                linear-gradient(to bottom, #001dff47 80%, #243b55 100%),
+                linear-gradient(to left, #001dff47 80%, #243b55 100%),
+                linear-gradient(to right, #001dff47 80%, #243b55 100%);
         background-size: auto;
       }
 
@@ -1934,15 +2052,25 @@
   
     /* container BodyB */
     .CGB {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
+      display: flex;
+      flex-wrap: wrap;
       gap: 20px;
       margin: 10px;
       cursor: pointer;
     }
     /* grid body */
+    .GB{
+      transition: 0.5s;
+      box-shadow: 2.5px 2.5px #00000090;
+    }
     .GB:hover {
-      box-shadow: 2px 2px 2px 2px #00000150;
+      font-weight: bold;
+      box-shadow: 3px 3px 3px 3px #00000150;
+      transform: scale(1.01);
+    }
+    .GB{
+      flex-grow: 1;
+      flex-basis: 240px;
     }
   
     .GB0 {
@@ -1962,7 +2090,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/HTML5.jpg) center no-repeat;
       background-size: 100% 100%;
     }
@@ -1972,7 +2100,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/CSS.jpg) no-repeat center;
       background-size: 100% 100%;
     }
@@ -1982,7 +2110,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/boostrapt.png) center no-repeat;
       background-size: 100% 100%;
     }
@@ -1992,7 +2120,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/PHP.png) center no-repeat;
       background-size: 100% 100%;
     }
@@ -2002,7 +2130,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/javascript.png) center no-repeat;
       background-size: 100% 100%;
     }
@@ -2012,7 +2140,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/sql.png);
       background-size: cover;
     }
@@ -2022,7 +2150,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/Mysql.png) center no-repeat;
       background-size: 100% 100%;
     }
@@ -2032,7 +2160,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/laravel.png) center;
       background-size: cover;
     }
@@ -2042,7 +2170,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/Seo.png) center no-repeat;
       background-size: 100% 100%;
     }
@@ -2052,7 +2180,7 @@
       border: 0px solid white;
       border-radius: 25px;
       width: 100%;
-      height: 250px;
+      height: 300px;
       background: url(img/java.png) center no-repeat;
       background-size: 100% 100%;
     }
@@ -2114,15 +2242,21 @@
     .GTB1:hover {
       box-shadow: 2px 2px 0px 1px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB2:hover {
       box-shadow: 2px 2px 5px 0px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB3:hover {
       box-shadow: 2px 2px 2px 2px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
-    }
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
+    } 
   
     /* title 2 */
     .title2 {
@@ -2149,7 +2283,7 @@
     .GTB2 h3,
     .GTB3 h3 {
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      font-size: large;
+      font-size: medium;
     }
   
   /* End BodyB */
@@ -2170,6 +2304,32 @@
 }
 @media only screen and (min-width: 700px) and (max-width: 989px) {
   /* universal */
+  ::-webkit-scrollbar { 
+    width: 10px;
+    background-color: rgba(169, 169, 169, 0);  
+    border-radius: 100px;  
+      }
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+      display: none; 
+    }
+  ::-webkit-scrollbar-thumb {
+      background-color: #a6141400;
+      border: 1px solid #00000000;
+      border-radius: 100px;   
+    }
+  ::-webkit-scrollbar-thumb:hover{
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0 100px 100px 0; 
+    }
+  ::-webkit-scrollbar-button {
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0px;
+      display: none;
+    }
       * {
         max-width: 100%;
         margin: 0;
@@ -2237,12 +2397,14 @@
     margin: 10px 30px;
     z-index: 1;
     color: #03e9f4;
-    box-shadow: 2px 2px 2px 2px #03e9f4;
+    /* box-shadow: 2px 2px 2px 2px #03e9f4; */
     cursor: pointer;
     width: max-content;
   }
   span .LM3 {
     background-color: #03e8f411;
+    border-radius: 8px;
+    padding: 8px;
   }
 
   /* container User*/
@@ -2527,25 +2689,22 @@
     transition: 0.5s;
     height: 100%;
     width: 100%;
-    background-color: #343434;
+    /* background-color: #343434; */
+    background: linear-gradient(to top, #343434 50%, #fff 100% ),
+    linear-gradient(to right, #1b2d40 28%, rgba(240, 240, 240, 0.628) 100%),
+        linear-gradient(to left, #1b2d40 51%, rgba(40, 40, 40, 0.628) 68%);
+
   }
 
   .bodyI {
     transition: 0.5s;
     height: 100%;
     width: 100%;
-    /* background-image: url("img/sfondo2.jpg"); */
-    background: #243b55;
-    background-size: auto;
-  }
-
-  .BodyE {
-    transition: 0.5s;
-    height: 100%;
-    width: 100%;
-    /* background: url("img/sfondo.jpg") no-repeat; */
-    background: #243b55;
-    background-size: cover;
+    background: linear-gradient(to top, #001dff47  50%, #004ba1 100%),
+                linear-gradient(to bottom, #001dff47 80%, #243b55 100%),
+                linear-gradient(to left, #001dff47 80%, #243b55 100%),
+                linear-gradient(to right, #001dff47 80%, #243b55 100%);
+    background-size: auto;  
   }
 
   /* BodyH */
@@ -2639,15 +2798,25 @@
 
       /* container Body */
       .CGB {
-        display: grid;
-        grid-template-columns: repeat(3, 3fr);
+        display: flex;
+        flex-wrap: wrap;
+        /* display: grid;
+        grid-template-columns: repeat(3, 3fr); */
         gap: 20px;
         margin: 10px;
         cursor: pointer;
       }
       /* grid body */
+      .GB{
+        flex-grow: 1;
+        flex-basis: 250px;
+        transition: 0.5s;
+        box-shadow: 2.5px 2.5px #00000090;
+      }
       .GB:hover {
-        box-shadow: 2px 2px 2px 2px #00000150;
+        font-weight: bold;
+        box-shadow: 3px 3px 3px 3px #00000150;
+        transform: scale(1.01);
       }
 
       .GB0 {
@@ -2656,7 +2825,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/copertina.jpg);
         background-size: 100% 100%;
         display: none;
@@ -2667,7 +2836,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/HTML5.jpg) center no-repeat;
         background-size: 100% 100%;
       }
@@ -2677,7 +2846,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/CSS.jpg) no-repeat center;
         background-size: 100% 100%;
       }
@@ -2687,7 +2856,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/boostrapt.png) center no-repeat;
         background-size: 100% 100%;
       }
@@ -2697,7 +2866,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/PHP.png) center no-repeat;
         background-size: 100% 100%;
       }
@@ -2707,7 +2876,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/javascript.png) center no-repeat;
         background-size: 100% 100%;
       }
@@ -2717,7 +2886,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/sql.png);
         background-size: cover;
       }
@@ -2727,7 +2896,7 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/Mysql.png) center no-repeat;
         background-size: 100% 100%;
       }
@@ -2737,17 +2906,19 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/laravel.png) center;
         background-size: 100% 100%;
       }
       .GB9 {
         display: flex;
+        flex-grow: -2;
+        flex-basis: 300;
         align-items: flex-end;
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 500px;
         background: url(img/Seo.png) center no-repeat;
         background-size: 100% 100%;
       }
@@ -2757,9 +2928,9 @@
         border: 0px solid white;
         border-radius: 25px;
         width: 100%;
-        height: 250px;
+        height: 300px;
         background: url(img/java.png) center no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
       }
 
       /* Link Pag Linguaggi */
@@ -2819,17 +2990,23 @@
       .GTB1:hover {
         box-shadow: 2px 2px 0px 1px #00000090;
         border: 0.1rem solid rgb(128, 128, 128);
+        text-shadow: 1px 1px 1px #ffffff3d;
+        transition: 0.5s;
       }
       .GTB2:hover {
         box-shadow: 2px 2px 5px 0px #00000090;
         border: 0.1rem solid rgb(128, 128, 128);
+        text-shadow: 1px 1px 1px #ffffff3d;
+        transition: 0.5s;
       }
       .GTB3:hover {
         box-shadow: 2px 2px 2px 2px #00000090;
         border: 0.1rem solid rgb(128, 128, 128);
-      }
+        text-shadow: 1px 1px 1px #ffffff3d;
+        transition: 0.5s;
+      } 
       /* title 2 */
-        .CB span.title2 {
+        .title2 {
           padding: 10px;
           background-color: #0000004f;
           box-shadow: 2px 2px 2px 2px white;
@@ -2853,7 +3030,7 @@
       .GTB2 h3,
       .GTB3 h3 {
         font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        font-size: large;
+        font-size: medium;
       }
    /* End Body */
     /* Footer */
@@ -2872,6 +3049,32 @@
 }
 @media only screen and (min-width: 990px) and (max-width: 1219px) {
   /* universal */
+  ::-webkit-scrollbar { 
+    width: 10px;
+    background-color: rgba(169, 169, 169, 0);  
+    border-radius: 100px;  
+      }
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+      display: none; 
+    }
+  ::-webkit-scrollbar-thumb {
+      background-color: #a6141400;
+      border: 1px solid #00000000;
+      border-radius: 100px;   
+    }
+  ::-webkit-scrollbar-thumb:hover{
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0 100px 100px 0; 
+    }
+  ::-webkit-scrollbar-button {
+      background-color: rgba(1, 1, 151, 0.434);
+      border: 1px solid #000000;
+      border-radius: 0px;
+      display: none;
+    }
       * {
         max-width: 100%;
         margin: 0;
@@ -2939,12 +3142,14 @@
     margin: 10px 30px;
     z-index: 1;
     color: #03e9f4;
-    box-shadow: 2px 2px 2px 2px #03e9f4;
+    /* box-shadow: 2px 2px 2px 2px #03e9f4; */
     cursor: pointer;
     width: max-content;
   }
   span .LM3 {
     background-color: #03e8f411;
+    border-radius: 8px;
+    padding: 8px;
   }
 
   /* container User*/
@@ -3234,8 +3439,10 @@
     transition: 0.5s;
     height: 100%;
     width: 100%;
-    /* background-image: url("img/sfondo2.jpg"); */
-    background: #243b55;
+    background: linear-gradient(to top, #001dff47  50%, #004ba1 100%),
+                linear-gradient(to bottom, #001dff47 80%, #243b55 100%),
+                linear-gradient(to left, #001dff47 80%, #243b55 100%),
+                linear-gradient(to right, #001dff47 80%, #243b55 100%);
     background-size: auto;
   }
 
@@ -3485,8 +3692,14 @@
       cursor: pointer;
     }
     /* grid body */
+    .GB{
+      transition: 0.5s;
+      box-shadow: 2.5px 2.5px #00000090;
+    }
     .GB:hover {
-      box-shadow: 2px 2px 2px 2px #00000150;
+      font-weight: bold;
+      box-shadow: 3px 3px 3px 3px #00000150;
+      transform: scale(1.01);
     }
 
     .GB0 {
@@ -3582,10 +3795,11 @@
     }
     .GB9 {
       display: flex;
+      flex-grow: 0;
       align-items: flex-end;
       border: 0px solid white;
       border-radius: 25px;
-      width: 100%;
+      width: 250px;
       height: 250px;
       background: url(img/Seo.png) center no-repeat;
       background-size: 100% 100%;
@@ -3655,27 +3869,32 @@
     .GTB1:hover {
       box-shadow: 2px 2px 0px 1px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB2:hover {
       box-shadow: 2px 2px 5px 0px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB3:hover {
       box-shadow: 2px 2px 2px 2px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
-    }
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
+    } 
     /* title 2 */
-      .title2 {
-        padding: 10px;
-        background-color: #0000004f;
-        box-shadow: 2px 2px 2px 2px white;
-        max-width: max-content;
-        display: flex;
-        border-radius: 5px;
-        margin: 20px;
-        color: rgba(255, 255, 255, 0.513);
-      }
-
+    .title2 {
+      padding: 10px;
+      background-color: #0000004f;
+      box-shadow: 2px 2px 2px 2px white;
+      max-width: max-content;
+      display: flex;
+      border-radius: 5px;
+      margin: 20px;
+      color: rgba(255, 255, 255, 0.513);
+    }
     /* text all'interno del grid */
     .GTB1 p,
     .GTB2 p,
@@ -3725,7 +3944,7 @@
       ::-webkit-scrollbar-thumb:hover{
           background-color: rgba(1, 1, 151, 0.434);
           border: 1px solid #000000;
-          border-radius: 100px; 
+          border-radius: 0 100px 100px 0; 
         }
       ::-webkit-scrollbar-button {
           background-color: rgba(1, 1, 151, 0.434);
@@ -3800,12 +4019,14 @@
     margin: 10px 30px;
     z-index: 1;
     color: #03e9f4;
-    box-shadow: 2px 2px 2px 2px #03e9f4;
+    /* box-shadow: 2px 2px 2px 2px #03e9f4; */
     cursor: pointer;
     width: max-content;
   }
   span .LM3 {
     background-color: #03e8f411;
+    border-radius: 8px;
+    padding: 8px;
   }
 
   /* container User*/
@@ -3816,6 +4037,7 @@
     justify-items: right;
     border-left: 2px solid #b2d1ff;
   }
+
 
   /*  Container IMG User */
   .Us {
@@ -4092,8 +4314,10 @@
     transition: 0.5s;
     height: 100%;
     width: 100%;
-    /* background-image: url("img/sfondo2.jpg"); */
-    background: #243b55;
+    background: linear-gradient(to top, #001dff47  50%, #004ba1 100%),
+                linear-gradient(to bottom, #001dff47 80%, #243b55 100%),
+                linear-gradient(to left, #001dff47 80%, #243b55 100%),
+                linear-gradient(to right, #001dff47 80%, #243b55 100%);
     background-size: auto;
   }
 
@@ -4179,10 +4403,14 @@
       cursor: pointer;
     }
     /* grid body */
-    .GB:hover {
-      box-shadow: 2px 2px 2px 2px #00000150;
+    .GB{
+      transition: 0.5s;
+      box-shadow: 2.5px 2.5px #00000090;
     }
-
+    .GB:hover {
+      box-shadow: 3px 3px 3px 3px #00000150;
+      transform: scale(1.01);
+    }
     .GB0 {
       display: flex;
       align-items: flex-end;
@@ -4350,14 +4578,20 @@
     .GTB1:hover {
       box-shadow: 2px 2px 0px 1px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB2:hover {
       box-shadow: 2px 2px 5px 0px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     }
     .GTB3:hover {
       box-shadow: 2px 2px 2px 2px #00000090;
       border: 0.1rem solid rgb(128, 128, 128);
+      text-shadow: 1px 1px 1px #ffffff3d;
+      transition: 0.5s;
     } 
     /* title 2 */
       .title2 {
