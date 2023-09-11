@@ -43,10 +43,11 @@
           transition: 0.5s;
           max-width: 100%;
         }
-
         .EXESVTEXT code{
           width: 200px;
           overflow: hidden;
+          display: flex;
+          flex-direction: column;
         }
   
     /* Head */
@@ -638,6 +639,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */
@@ -718,12 +720,16 @@
       li {
         list-style: none;
       }
+      a {
+        text-decoration: none;
+      }
       .JCH {
         transition: 0.5s;
         max-width: 100%;
       }
-      a {
-        text-decoration: none;
+      .EXESVTEXT code{
+        display: flex;
+        flex-direction: column;
       }
 
   /* Head */
@@ -1297,6 +1303,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */
@@ -1386,6 +1393,10 @@
       .JCH {
         transition: 0.5s;
         max-width: 100%;
+      }
+      .EXESVTEXT code{
+        display: flex;
+        flex-direction: column;
       }
 
   /* Head */
@@ -1960,6 +1971,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */
@@ -2047,6 +2059,10 @@
     .JCH {
       transition: 0.5s;
       max-width: 100%;
+    }
+    .EXESVTEXT code{
+      display: flex;
+      flex-direction: column;
     }
 
 /* Head */
@@ -2571,6 +2587,7 @@ p.notepxpexe {
 .EXEROW {
   display: flex;
   flex-direction: row;
+  margin: 4px;
 }
 
 /* Conteiner esercizi */
@@ -2655,6 +2672,10 @@ display: flex;
           .JCH {
             transition: 0.5s;
             max-width: 100%;
+          }
+          .EXESVTEXT code{
+            display: flex;
+            flex-direction: column;
           }
 
       /* Head */
@@ -3177,6 +3198,7 @@ display: flex;
       .EXEROW {
         display: flex;
         flex-direction: row;
+        margin: 4px;
       }
 
       /* Conteiner esercizi */
@@ -3261,6 +3283,10 @@ display: flex;
       .JCH {
         transition: 0.5s;
         max-width: 100%;
+      }
+      .EXESVTEXT code{
+        display: flex;
+        flex-direction: column;
       }
 
   /* Head */
@@ -3783,6 +3809,7 @@ display: flex;
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */

@@ -46,6 +46,8 @@
     .EXESVTEXT code{
         width: 200px;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
       }
   
     /* Head */
@@ -678,6 +680,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */
@@ -763,6 +766,10 @@
     }
     a {
       text-decoration: none;
+    }
+    .EXESVTEXT code{
+      display: flex;
+      flex-direction: column;
     }
   
     /* Head */
@@ -1381,6 +1388,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */
@@ -1465,6 +1473,10 @@
     .JCH {
       transition: 0.5s;
       max-width: 100%;
+    }
+    .EXESVTEXT code{
+      display: flex;
+      flex-direction: column;
     }
   
     /* Head */
@@ -2080,6 +2092,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */
@@ -2165,6 +2178,10 @@
     .JCH {
       transition: 0.5s;
       max-width: 100%;
+    }
+    .EXESVTEXT code{
+      display: flex;
+      flex-direction: column;
     }
   
     /* Head */
@@ -2745,6 +2762,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
   
   /* Conteiner esercizi */
@@ -2869,6 +2887,10 @@
     .JCH {
       transition: 0.5s;
       max-width: 100%;
+    }
+    .EXESVTEXT code{
+      display: flex;
+      flex-direction: column;
     }
   
     /* Head */
@@ -3448,6 +3470,7 @@
         .EXEROW {
           display: flex;
           flex-direction: row;
+          margin: 4px;
         }
   
         /* Conteiner esercizi */
@@ -3539,6 +3562,10 @@
     .JCH {
       transition: 0.5s;
       max-width: 100%;
+    }
+    .EXESVTEXT code{
+      display: flex;
+      flex-direction: column;
     }
   
     /* Head */
@@ -4039,8 +4066,8 @@
   /* LinKExe & ol PhpExe */
   .CLTEXE {
     margin-left: 15px;
-    border-left: 1px solid rgba(255, 255, 255, 0.211);
     padding: 5px;
+    padding-top: 0;
   }
   .L-1 {
     letter-spacing: 2px;
@@ -4133,6 +4160,7 @@
   .EXEROW {
     display: flex;
     flex-direction: row;
+    margin: 4px;
   }
 
   /* Conteiner esercizi */
@@ -4151,6 +4179,23 @@
   .HExercises {
     grid-row-start: 1;
     grid-row-end: 3;
+    padding-left: 10rem;
+  }
+
+  .HExercises nav{
+    position: fixed;
+    bottom: 10rem;
+    width: 250px;
+    background: rgb(255 255 255 / 0%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transition: 0.5s;
+    backdrop-filter: blur(1px);
+  }
+  .HExercises nav ol:nth-child(1){
+    display: flex;
+    justify-content: center;
   }
   .BExercises {
     display: grid;
