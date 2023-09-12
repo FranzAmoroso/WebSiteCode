@@ -45,7 +45,6 @@
     }
     .EXESVTEXT code{
         width: 200px;
-        overflow: hidden;
         display: flex;
         flex-direction: column;
       }
@@ -557,12 +556,14 @@
   .TT-10 {
     margin: 50px 0px 50px 0px;
   }
-  span h2.Title4 a {
-    font-size: xx-large;
+  span h2.Title5 {
+    font-size: large;
     font-family: system-ui;
     padding: 10px;
-    color: #fffffff0;
     margin-top: 10px;
+  }
+  span h2.Title5 a {
+    color: #fffffff0;
   }
   .Title4 {
     font-size: large;
@@ -581,7 +582,6 @@
   /* LinKExe & ol PhpExe */
   .CLTEXE {
     margin-left: 15px;
-    border-left: 1px solid rgba(255, 255, 255, 0.211);
     padding: 5px;
   }
   .L-1 {
@@ -687,6 +687,18 @@
   .CExercises {
     display: grid;
   }
+  .HExercises nav{
+    width: 250px;
+    background: rgb(255 255 255 / 0%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transition: 0.5s;
+  }
+  .HExercises nav ol:nth-child(1){
+    display: flex;
+    justify-content: center;
+  }
   #SP {
     display: none;
   }
@@ -770,6 +782,7 @@
     .EXESVTEXT code{
       display: flex;
       flex-direction: column;
+      width: 300px;
     }
   
     /* Head */
@@ -1267,19 +1280,22 @@
   .TT-10 {
     margin: 50px 0px 50px 0px;
   }
-  span h2.Title4 a {
-    font-size: xx-large;
+  span h2.Title5 {
+    font-size: x-large;
     font-family: system-ui;
     padding: 10px;
-    color: #fffffff0;
     margin-top: 10px;
+  }
+  span h2.Title5 a {
+    color: #fffffff0;
   }
   .Title4 {
     font-size: xx-large;
     font-family: system-ui;
     padding: 10px;
     color: #fffffff0;
-    margin-top: 10px;
+    
+    margin: 10px 70px 20px 70px;
   }
   /* Paragrafo list phpExe */
   .PEXE a {
@@ -1291,7 +1307,6 @@
   /* LinKExe & ol PhpExe */
   .CLTEXE {
     margin-left: 15px;
-    border-left: 1px solid rgba(255, 255, 255, 0.211);
     padding: 5px;
   }
   .L-1 {
@@ -1379,8 +1394,6 @@
     border-radius: 10px;
     background-color: #1b1b1b;
     font-size: 11px;
-    width: 100%;
-    height: auto;
     padding: 10px;
     margin-bottom: 30px;
   }
@@ -1397,6 +1410,18 @@
     grid-template-columns: repeat(1,1fr);
     margin-left: 1rem;
     margin-right: 1.5rem;
+  }
+  .HExercises nav{
+    width: 250px;
+    background: rgb(255 255 255 / 0%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transition: 0.5s;
+  }
+  .HExercises nav ol:nth-child(1){
+    display: flex;
+    justify-content: center;
   }
   #SP {
     display: none;
@@ -1477,6 +1502,7 @@
     .EXESVTEXT code{
       display: flex;
       flex-direction: column;
+      width: 400px;
     }
   
     /* Head */
@@ -1973,13 +1999,16 @@
   .TT-10 {
     margin: 50px 0px 50px 0px;
   }
-  span h2.Title4 a {
+  span h2.Title5 {
     font-size: xx-large;
     font-family: system-ui;
     padding: 10px;
     color: #fffffff0;
     margin-top: 30px;
   }
+  span h2.Title5 a {
+    color: #fffffff0;
+    }
   .Title4 {
     font-size: xxx-large;
     font-family: system-ui;
@@ -1997,7 +2026,6 @@
   /* LinKExe & ol PhpExe */
   .CLTEXE {
     margin-left: 15px;
-    border-left: 1px solid rgba(255, 255, 255, 0.211);
     padding: 5px;
   }
   .L-1 {
@@ -2083,8 +2111,6 @@
   .CEXESVTEXT .EXESVTEXT {
     border-radius: 10px;
     background-color: #1b1b1b;
-    width: 100%;
-    height: auto;
     padding: 10px;
     margin-bottom: 30px;
   }
@@ -2101,6 +2127,18 @@
     grid-template-columns: repeat(1,1fr);
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+  }
+  .HExercises nav{
+    width: 250px;
+    background: rgb(255 255 255 / 0%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transition: 0.5s;
+  }
+  .HExercises nav ol:nth-child(1){
+    display: flex;
+    justify-content: center;
   }
   #SP {
     display: none;
@@ -2644,12 +2682,15 @@
 .TT-10 {
     margin: 50px 0px 50px 0px;
   }
-  span h2.Title4 a {
+  span h2.Title5 {
     font-size: xx-large;
     font-family: system-ui;
     padding: 10px;
-    color: #fffffff0;
+    
     margin-top: 10px;
+  }
+  span h2.Title5 a{
+    color: #fffffff0;
   }
   .Title4 {
     font-size: xxx-large;
@@ -2668,7 +2709,6 @@
   /* LinKExe & ol jsExe */
   .CLTEXE {
     margin-left: 15px;
-    border-left: 1px solid rgba(255, 255, 255, 0.211);
     padding: 5px;
   }
   .L-1 {
@@ -2769,6 +2809,18 @@
   .CExercises {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+  }
+  .HExercises nav{
+    width: 250px;
+    background: rgb(255 255 255 / 0%);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    transition: 0.5s;
+  }
+  .HExercises nav ol:nth-child(1){
+    display: flex;
+    justify-content: center;
   }
   #SP {
     display: none;
@@ -3353,12 +3405,15 @@
         .TT-10 {
           margin: 50px 0px 50px 0px;
         }
-        span h2.Title4 a {
+        span h2.Title5{
           font-size: xx-large;
           font-family: system-ui;
           padding: 10px;
           color: #fffffff0;
           margin-top: 10px;
+        }
+        span h2.Title5 a{
+          color: #fffffff0;
         }
         .Title4 {
           font-size: xxx-large;
@@ -3377,7 +3432,6 @@
         /* LinKExe & ol PhpExe */
         .CLTEXE {
           margin-left: 15px;
-          border-left: 1px solid rgba(255, 255, 255, 0.211);
           padding: 5px;
         }
         .L-1 {
@@ -3477,6 +3531,18 @@
         .CExercises {
           margin-left: 1.5rem;
           margin-right: 1.5rem;
+        }
+        .HExercises nav{
+          width: 250px;
+          background: rgb(255 255 255 / 0%);
+          border: none;
+          border-radius: 10px;
+          box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+          transition: 0.5s;
+        }
+        .HExercises nav ol:nth-child(1){
+          display: flex;
+          justify-content: center;
         }
         #SP {
           display: none;
@@ -4048,12 +4114,14 @@
     color: #fffffff0;
     margin-top: 30px;
   }
-  span h2.Title4 a {
+  span h2.Title5  {
     font-size: xx-large;
     font-family: system-ui;
     padding: 10px;
-    color: #fffffff0;
     margin-top: 10px;
+  }
+  span h2.Title5 a{
+    color: #fffffff0;
   }
   
   /* Paragrafo list phpExe */
