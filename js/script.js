@@ -50,3 +50,91 @@ let string9 = "  me gustas tu  ";
 let trim = string9.trim();
 console.log(trim)
 
+let name = "Marco";
+console.log(`Hello Guns, my name is: ${name}`)
+
+let nome = "Alfio";
+console.log(`Hi guys, my name is: ${nome}`);
+
+let numero1 = 5;
+let numero2 =7;
+console.log(`the sum of the varible is: ${numero1} + ${numero2} = ${numero1 + numero2} `);
+
+let nome2 = "Federico";
+let eta = 25;
+let citta = "Milano";
+console.log(
+    `Nome: ${nome2}
+    eta: ${eta}
+    citta: ${citta} `
+)
+
+
+let frutta = ["Mela","Pera","Pesca"];
+let listHTML = `<ul>`
+for(let frutto of frutta){
+    listHTML += `
+    <li>${frutto}<li>
+    `;
+}
+listHTML += `
+</ul>`;
+console.log(listHTML);
+
+let nome3 = "Giovanni";
+let msg = `
+    Salve ${nome3},
+    Benvenuto nel Sito, 
+    qui trverai ciò di cui hai bisogno.
+`;
+console.log(msg);
+
+const baseURL = "https://www.WebCodeSite.com/";
+let parametro = "javascript";
+let URLCompleto = `${baseURL}${parametro}`;
+console.log(`l?url completo è ${URLCompleto}`);
+
+
+let prezzo = 19.99;
+console.log(`£${prezzo.toFixed(1)}`);
+
+
+    
+    /* let BT = document.querySelector('.BT-25')
+    BT.addEventListener('click', msg())
+
+    function msg(){
+        let nome4 = prompt(`inserisci il tuo nome:`);
+        let eta2 = prompt(`Inserisci la tua età:`);
+        let messaggio = `Ciao ${nome4}! Hai ${eta2} anni. Benvenuto`;
+        return messaggio;
+    }; */
+
+ /*     function d(){ output.innerHTML = `Ciao ${nome4}! Hai ${eta2} anni. Benvenuto`;}  let c = 0;    if(c != output.length){ c++; setTimeout(d(), 2200)}else{c++; setTimeout(d(),2000) } */    
+
+/*  let BT = document.querySelector('.BT-25'); BT.addEventListener('click', () => {let nome4 = prompt(`inserisci il tuo nome:`); let eta2 = prompt(`Inserisci la tua età:`);let output = document.querySelector('#output1'); const texts = [ `Ciao ${nome4}! Hai ${eta2} anni. Benvenuto`];  let index = 0; let isDeleting = false; let delay = 0; function animateText() {const currentText = texts[index]; if (isDeleting) { output.textContent = currentText.slice(0, output.textContent.length - 1);  } else { output.textContent = currentText.slice(0, output.textContent.length + 1); // Aggiunge un carattere alla volta
+}
+
+if (!isDeleting && output.textContent === currentText) {
+  isDeleting = true;
+  delay = 50; 
+} else if (isDeleting && output.textContent === '') {
+  isDeleting = false;
+  delay = 170; // Tempo di pausa dopo aver cancellato il testo
+  index++;
+  
+  if (index === texts.length) {
+    index = 0; // Torna al primo testo dell'array
+  }
+}
+
+setTimeout(animateText, delay);
+}
+
+
+animateText();  }); */
+
+/*                                             <script> let BT = document.querySelector('.BT-25'); BT.addEventListener('click', () => {let nome4 = prompt(`inserisci il tuo nome:`); let eta2 = prompt(`Inserisci la tua età:`); let output = document.querySelector('#output1');  output.innerHTML = `Ciao ${nome4}! Hai ${eta2} anni. Benvenuto`; });</script>
+ */
+ 
+

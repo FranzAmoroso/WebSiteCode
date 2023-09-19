@@ -599,7 +599,7 @@
   }
   .LTEXE {
     list-style: none;
-    /*  padding: 5px; */
+     padding: 5px;
     margin: 10px 0px 0px 0px;
     font-family: monospace;
     font-size: large;
@@ -681,6 +681,35 @@
     display: flex;
     flex-direction: row;
     margin: 4px;
+  }
+  /* Button Prova Adesso! */
+  .CBT-25 {
+    background-color: #00000090;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 900;
+    font-size: small;
+    box-shadow: 2px 2px 2px 2px #00000150;
+    transition: 0.5s;
+  }
+  .CBT-25:hover {
+    padding: 5px;
+    background: rgba(255, 225, 0, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 225, 0, 0.805),
+      0 0 25px rgba(255, 225, 0, 0.805), 0 0 50px rgba(255, 225, 0, 0.805),
+      0 0 10px rgba(255, 225, 0, 0.805);
+  }
+  .BT-25 {
+    color: rgba(255, 255, 255, 0.442);
   }
 
   /* Conteiner esercizi */
@@ -1324,7 +1353,7 @@
   }
   .LTEXE {
     list-style: none;
-    /*  padding: 5px; */
+     padding: 5px;
     margin: 10px 0px 0px 0px;
     font-family: monospace;
     font-size: large;
@@ -1403,6 +1432,35 @@
     flex-direction: row;
     margin: 4px;
   }
+  /* Button Prova Adesso! */
+  .CBT-25 {
+    background-color: #00000090;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 900;
+    font-size: small;
+    box-shadow: 2px 2px 2px 2px #00000150;
+    transition: 0.5s;
+  }
+  .CBT-25:hover {
+    padding: 5px;
+    background: rgba(255, 225, 0, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 225, 0, 0.805),
+      0 0 25px rgba(255, 225, 0, 0.805), 0 0 50px rgba(255, 225, 0, 0.805),
+      0 0 10px rgba(255, 225, 0, 0.805);
+  }
+   .BT-25 {
+    color: rgba(255, 255, 255, 0.442);
+  } 
 
   /* Conteiner esercizi */
   .CExercises {
@@ -2043,7 +2101,7 @@
   }
   .LTEXE {
     list-style: none;
-    /*  padding: 5px; */
+     padding: 5px;
     margin: 10px 0px 0px 0px;
     font-family: monospace;
     font-size: large;
@@ -2119,6 +2177,35 @@
     display: flex;
     flex-direction: row;
     margin: 4px;
+  }
+  /* Button Prova Adesso! */
+  .CBT-25 {
+    background-color: #00000090;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: large;
+    box-shadow: 2px 2px 2px 2px #00000150;
+    transition: 0.5s;
+  }
+  .CBT-25:hover {
+    padding: 5px;
+    background: rgba(255, 225, 0, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 225, 0, 0.805),
+      0 0 25px rgba(255, 225, 0, 0.805), 0 0 50px rgba(255, 225, 0, 0.805),
+      0 0 10px rgba(255, 225, 0, 0.805);
+  }
+  .BT-25 {
+    color: rgba(255, 255, 255, 0.442);
   }
 
   /* Conteiner esercizi */
@@ -2726,7 +2813,7 @@
   }
   .LTEXE {
     list-style: none;
-    /*  padding: 5px; */
+     padding: 5px;
     margin: 10px 0px 0px 0px;
     font-family: monospace;
     font-size: large;
@@ -2803,6 +2890,36 @@
     display: flex;
     flex-direction: row;
     margin: 4px;
+  }
+  /* Button Prova Adesso */
+  .CBT-25 {
+    background-color: #00000090;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: large;
+    box-shadow: 2px 2px 2px 2px #00000150;
+    transition: 0.5s;
+  }
+  .CBT-25:hover {
+    padding: 5px;
+    background: rgba(255, 225, 0, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 225, 0, 0.805),
+      0 0 25px rgba(255, 225, 0, 0.805), 0 0 50px rgba(255, 225, 0, 0.805),
+      0 0 10px rgba(255, 225, 0, 0.805);
+  }
+
+  .BT-25 {
+    color: rgba(255, 255, 255, 0.442);
   }
   
   /* Conteiner esercizi */
@@ -3450,7 +3567,7 @@
         }
         .LTEXE {
           list-style: none;
-          /*  padding: 5px; */
+           padding: 5px;
           margin: 10px 0px 0px 0px;
           font-family: monospace;
         }
@@ -3525,6 +3642,38 @@
           display: flex;
           flex-direction: row;
           margin: 4px;
+        }
+        /* Button Prova Adesso! */
+        .CBT-25 {
+          background-color: #00000090;
+          border-radius: 10px 0px 10px 0px;
+          cursor: pointer;
+          text-decoration: none;
+          width: 143px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 5px;
+          margin: 10px;
+          font-weight: 700;
+          font-size: large;
+          box-shadow: 2px 2px 2px 2px #00000150;
+          border-top: groove rgba(255, 225, 0, 0.805);
+          transition: 0.5s;
+        }
+        .CBT-25:hover {
+          padding: 5px;
+          background: rgba(255, 225, 0, 0.805);
+          color: #fff;
+          border-radius: 5px;
+          box-shadow: 0 0 5px rgba(255, 225, 0, 0.805),
+            0 0 25px rgba(255, 225, 0, 0.805), 0 0 50px rgba(255, 225, 0, 0.805),
+            0 0 10px rgba(255, 225, 0, 0.805);
+          letter-spacing: 2px;
+        }
+      
+        .BT-25 {
+          color: rgba(255, 255, 255, 0.442);
         }
   
         /* Conteiner esercizi */
@@ -4152,7 +4301,7 @@
   }
   .LTEXE {
     list-style: none;
-    /*  padding: 5px; */
+     padding: 5px;
     margin: 10px 0px 0px 0px;
     font-family: monospace;
     font-size: large;
@@ -4229,6 +4378,37 @@
     display: flex;
     flex-direction: row;
     margin: 4px;
+  }
+  /* Buttone Prova Adesso! */
+  .CBT-25 {
+    background-color: #00000090;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 143px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: large;
+    box-shadow: 2px 2px 2px 2px #00000150;
+    border-top: groove rgba(255, 225, 0, 0.805);
+    transition: 0.5s;
+  }
+  .CBT-25:hover {
+    padding: 5px;
+    background: rgba(255, 225, 0, 0.805);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 225, 0, 0.805),
+      0 0 25px rgba(255, 225, 0, 0.805), 0 0 50px rgba(255, 225, 0, 0.805),
+      0 0 10px rgba(255, 225, 0, 0.805);
+  }
+
+  .BT-25 {
+    color: rgba(255, 255, 255, 0.442);
   }
 
   /* Conteiner esercizi */
